@@ -1,0 +1,46 @@
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.11"
+joblib = "1.4.2"
+rich = "14.0.0"
+tqdm = { extras = ["all"], version = "^4.66.1" }
+requests = "^2.32.0"
+ibm-generative-ai = "3.0.0"
+javalang = "0.13.0"
+toml = "^0.10.2"
+jinja2 = "^3.1.2"
+openai = "^1.12.0"
+python-dotenv = "^1.0.1"
+cldk = "1.0.6"
+plotly = "^5.22.0"
+openpyxl = "3.0.9"
+replicate = "^1.0.3"
+tree-sitter-java = "^0.23.5"
+deepdiff = "^8.0.1"
+typer = ">=0.15.3,<0.17.0"
+hamster = { git = "git@github.com:aster-test-generation/hamster-empirical-study.git", branch = "main" }
+reaster = { git = "git@github.com:aster-test-generation/re-aster.git", branch = "main" }
+javabuild = { git = "git@github.com:aster-test-generation/javabuild.git", branch = "main" }
+langchain = "^0.3.26"
+faiss-cpu = "^1.11.0"
+langchain-community = "^0.3.26"
+langgraph = "^0.5.4"
+langchain-openai = "^0.3.30"
+google-cloud-aiplatform = "^1.74.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+pytest = "^8.2.0"
+pytest-cov = "^4.1.0"
+pylint = "^3.0.2"
+flake8 = "^6.1.0"
+coverage = "^7.3.2"
+pyinstaller = "^6.6.0"
+ollama = "^0.5.1"
+pyright = "^1.1.407"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
