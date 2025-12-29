@@ -21,7 +21,7 @@ class IntergrationPatternRating(BaseModel):
     )
 
 def rate_integration_test_pattern(file_content: str) -> IntergrationPatternRating:
-    api_key = "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" 
+    api_key = os.getenv("OPENAI_API_KEY")    
     
     llm = ChatOpenAI(
         model="gpt-4o",

@@ -2,7 +2,7 @@ import sys
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
-
+import os
 
 
 
@@ -17,7 +17,7 @@ class TestClassification(BaseModel):
     )
 
 def is_integration_test(file_content: str) -> TestClassification:
-    api_key = "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" 
+    api_key = os.getenv("OPENAI_API_KEY") 
     
     # 2. Setup the Model
     # We use 'with_structured_output' to bind the Pydantic model to the LLM
