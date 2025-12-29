@@ -8,7 +8,8 @@ from cldk import CLDK
 from cldk.analysis.java import JavaAnalysis
 from hamster.code_analysis.common import CommonAnalysis
 from is_integration_test import is_integration_test
-from pattern_categorization import classify_integration_test_pattern
+from pattern_rating import rate_integration_test_pattern
+import json
 
 if __name__ == "__main__":
     # read the first command line argument as the project path
@@ -18,15 +19,17 @@ if __name__ == "__main__":
     common_analysis = CommonAnalysis(analysis=analysis)
     test_entities, app_classes = common_analysis.get_test_methods_classes_and_application_classes()
 
+    results = []
+
     for test_class_name, test_methods in test_entities.items():
         java_file_name = analysis.get_java_file(test_class_name)
         class_file_path = Path(java_file_name).absolute().resolve()
         klass = analysis.get_class(test_class_name)
         code_body = class_file_path.read_text()
 
-        if not "ActivitiesIntegrationTest" in test_class_name:
-            continue
-        
+        # if not "ActivitiesIntegrationTest" in test_class_name:
+        #     continue
+
         is_integration = is_integration_test(code_body).is_integration_test
         
         # print(f"Test Class: {test_class_name}")
@@ -35,13 +38,65 @@ if __name__ == "__main__":
 
 
         if not is_integration:
-            print(f"Test Class: {test_class_name}")
-            print("  Not an integration test.")
+            # print(f"Test Class: {test_class_name}")
+            # print("  Not an integration test.")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": "Not an integration test"
+            })
             continue
         
-        pattern_classification = classify_integration_test_pattern(code_body)
+        # pattern_classification = classify_integration_test_pattern(code_body)
 
-        print(f"Test Class: {test_class_name}")
-        print(f"  Pattern Type: {pattern_classification.pattern_type}")
-        print(f"  Explanation: {pattern_classification.explanation}")
-        print()
+        # print(f"Test Class: {test_class_name}")
+        # print(f"  Pattern Type: {pattern_classification.pattern_type}")
+        # print(f"  Explanation: {pattern_classification.explanation}")
+        # print()
+
+        pattern_rating = rate_integration_test_pattern(code_body)
+
+        # print(pattern_rating)
+
+        if pattern_rating.manual_setup_in_tests:
+            # print(f"Test Class: {test_class_name}")
+            # print("  Manual setup in tests.")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": "Manual setup in tests"
+            })
+        elif pattern_rating.has_restart:
+            # print(f"Test Class: {test_class_name}")
+            # print("  Restart")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": "Restart"
+            })
+        elif pattern_rating.has_fixture and pattern_rating.reloading_data_in_fixtures:
+            # print(f"Test Class: {test_class_name}")
+            # print("  Clear and reload")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": "Clear and reload"
+            })
+        elif pattern_rating.has_fixture and pattern_rating.API_calls_in_fixtures:
+            # print(f"Test Class: {test_class_name}")
+            # print("  API calls")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": "API calls"
+            })
+        else:
+            # print(f"Test Class: {test_class_name}")
+            # print(f"  No recognized pattern: {pattern_rating}")
+            # print()
+            results.append({
+                "test_class": test_class_name,
+                "pattern": f"No recognized pattern: {{ {pattern_rating} }}"
+            })
+    
+    print(json.dumps(results, indent=2))
