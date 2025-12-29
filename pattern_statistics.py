@@ -107,9 +107,7 @@ if __name__ == "__main__":
     with open(repos_info_json, "r") as f:
         repos_info = json.load(f)
     
-    repos_info = repos_info[:2]
-
-    repo_results = {}
+    # repo_results = {}
 
     for folder_name, details in repos_info.items():
         url = details['github_url']
@@ -133,8 +131,11 @@ if __name__ == "__main__":
         
         # remove the cloned repo after processing
         pattern_results = process_project(str(folder_path))
-        repo_results[folder_name] = pattern_results
+        
+        # write results to a json file
+        with open(Path("./stats")/f"{folder_name}.json", "w") as f_out:
+            json.dump(pattern_results, f_out, indent=4)
 
         subprocess.check_call(["rm", "-rf", str(folder_path)])
     
-    print(json.dumps(repo_results, indent=2))
+    

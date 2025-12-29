@@ -21,7 +21,11 @@ class IntergrationPatternRating(BaseModel):
     )
 
 def rate_integration_test_pattern(file_content: str) -> IntergrationPatternRating:
-    api_key = os.getenv("OPENAI_API_KEY")    
+    api_key = os.getenv("OPENAI_API_KEY")   
+
+    # if the environment variable is not set, raise an error
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY environment variable is not set.") 
     
     llm = ChatOpenAI(
         model="gpt-4o",

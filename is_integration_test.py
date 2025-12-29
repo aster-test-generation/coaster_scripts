@@ -18,6 +18,10 @@ class TestClassification(BaseModel):
 
 def is_integration_test(file_content: str) -> TestClassification:
     api_key = os.getenv("OPENAI_API_KEY") 
+
+    # if the environment variable is not set, raise an error
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY environment variable is not set.")
     
     # 2. Setup the Model
     # We use 'with_structured_output' to bind the Pydantic model to the LLM
