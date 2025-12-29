@@ -10,10 +10,9 @@ from hamster.code_analysis.common import CommonAnalysis
 from is_integration_test import is_integration_test
 from pattern_rating import rate_integration_test_pattern
 import json
+import subprocess
 
-if __name__ == "__main__":
-    # read the first command line argument as the project path
-    project_path = sys.argv[1]
+def process_project(project_path: str) -> list[dict]:
     cldk = CLDK(language="java")
     analysis: JavaAnalysis = cldk.analysis(project_path=project_path)
     common_analysis = CommonAnalysis(analysis=analysis)
@@ -99,4 +98,43 @@ if __name__ == "__main__":
                 "pattern": f"No recognized pattern: {{ {pattern_rating} }}"
             })
     
-    print(json.dumps(results, indent=2))
+    return results
+
+
+if __name__ == "__main__":
+    repos_info_json = sys.argv[1]
+    
+    with open(repos_info_json, "r") as f:
+        repos_info = json.load(f)
+    
+    repos_info = repos_info[:2]
+
+    repo_results = {}
+
+    for folder_name, details in repos_info.items():
+        url = details['github_url']
+        commit_hash = details['commit']
+
+        folder_path=Path("./temp") / folder_name
+        if not folder_path.exists():
+            try:
+                subprocess.check_call(["git", "clone", url, str(folder_path)])
+            except subprocess.CalledProcessError:
+                print(f"Failed to clone {url}. Skipping.")
+                continue
+        
+
+        try:
+            # We run the command INSIDE the new folder using the cwd argument
+            subprocess.check_call(["git", "checkout", commit_hash], cwd=folder_path)
+        except subprocess.CalledProcessError:
+            print(f"Failed to checkout {commit_hash} in {folder_path}")
+
+        
+        # remove the cloned repo after processing
+        pattern_results = process_project(str(folder_path))
+        repo_results[folder_name] = pattern_results
+
+        subprocess.check_call(["rm", "-rf", str(folder_path)])
+    
+    print(json.dumps(repo_results, indent=2))

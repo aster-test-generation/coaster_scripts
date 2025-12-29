@@ -755,11 +755,6 @@
         "endpoint_class": 6
     },
     {
-        "project": "total_endpoints.json",
-        "endpoint_method": 0,
-        "endpoint_class": 0
-    },
-    {
         "project": "spring-projects_spring-data-relational",
         "endpoint_method": 0,
         "endpoint_class": 0
@@ -968,11 +963,6 @@
         "project": "jeecgboot_jimureport",
         "endpoint_method": 4,
         "endpoint_class": 1
-    },
-    {
-        "project": ".gitignore",
-        "endpoint_method": 0,
-        "endpoint_class": 0
     },
     {
         "project": "mybatis_spring",
@@ -1873,11 +1863,6 @@
         "project": "datavane_datasophon",
         "endpoint_method": 209,
         "endpoint_class": 37
-    },
-    {
-        "project": ".git",
-        "endpoint_method": 0,
-        "endpoint_class": 0
     },
     {
         "project": "nacos-group_nacos-spring-project",
