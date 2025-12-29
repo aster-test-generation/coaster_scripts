@@ -1,0 +1,2093 @@
+[
+    {
+        "project": "alibaba_sca-best-practice",
+        "endpoint_method": 5,
+        "endpoint_class": 3
+    },
+    {
+        "project": "eventuate-tram_eventuate-tram-sagas-examples-customers-and-orders",
+        "endpoint_method": 4,
+        "endpoint_class": 2
+    },
+    {
+        "project": "spring-projects_spring-amqp-samples",
+        "endpoint_method": 3,
+        "endpoint_class": 1
+    },
+    {
+        "project": "redhat-scholars_istio-tutorial",
+        "endpoint_method": 26,
+        "endpoint_class": 11
+    },
+    {
+        "project": "blox_blox",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "decentralized-identity_universal-resolver",
+        "endpoint_method": 7,
+        "endpoint_class": 7
+    },
+    {
+        "project": "OWASP_wrongsecrets",
+        "endpoint_method": 15,
+        "endpoint_class": 11
+    },
+    {
+        "project": "zalando_problem-spring-web",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "dromara_myth",
+        "endpoint_method": 6,
+        "endpoint_class": 2
+    },
+    {
+        "project": "battcn_spring-boot2-learning",
+        "endpoint_method": 29,
+        "endpoint_class": 13
+    },
+    {
+        "project": "geekidea_spring-boot-plus",
+        "endpoint_method": 76,
+        "endpoint_class": 17
+    },
+    {
+        "project": "minbox-projects_api-boot",
+        "endpoint_method": 41,
+        "endpoint_class": 20
+    },
+    {
+        "project": "eBay_parallec",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "snakerflow-starter_snakerflow-spring-boot-starter",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "dromara_SMS4J",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "deliveredtechnologies_rulebook",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "Project-Books_book-project",
+        "endpoint_method": 27,
+        "endpoint_class": 7
+    },
+    {
+        "project": "olacabs_jackhammer",
+        "endpoint_method": 119,
+        "endpoint_class": 29
+    },
+    {
+        "project": "xaecbd_KCenter",
+        "endpoint_method": 133,
+        "endpoint_class": 17
+    },
+    {
+        "project": "rymcu_forest",
+        "endpoint_method": 131,
+        "endpoint_class": 28
+    },
+    {
+        "project": "PlayEdu_PlayEdu",
+        "endpoint_method": 121,
+        "endpoint_class": 29
+    },
+    {
+        "project": "Netflix_Prana",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "baomidou_mybatis-plus-samples",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "OAuth-Apis_apis",
+        "endpoint_method": 47,
+        "endpoint_class": 9
+    },
+    {
+        "project": "apache_shardingsphere-elasticjob",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "Netflix_Priam",
+        "endpoint_method": 57,
+        "endpoint_class": 8
+    },
+    {
+        "project": "zalando_logbook",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "tal-tech_conan",
+        "endpoint_method": 233,
+        "endpoint_class": 46
+    },
+    {
+        "project": "alibaba_jvm-sandbox-repeater",
+        "endpoint_method": 30,
+        "endpoint_class": 8
+    },
+    {
+        "project": "springside_springside4",
+        "endpoint_method": 17,
+        "endpoint_class": 4
+    },
+    {
+        "project": "SpringForAll_springcloud-thoth",
+        "endpoint_method": 15,
+        "endpoint_class": 6
+    },
+    {
+        "project": "eclipse-jifa_jifa",
+        "endpoint_method": 13,
+        "endpoint_class": 6
+    },
+    {
+        "project": "Qihoo360_hbox",
+        "endpoint_method": 8,
+        "endpoint_class": 1
+    },
+    {
+        "project": "asciidocfx_AsciidocFX",
+        "endpoint_method": 9,
+        "endpoint_class": 9
+    },
+    {
+        "project": "spring-projects_spring-graphql",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "keycloak_keycloak-quickstarts",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "kairosdb_kairosdb",
+        "endpoint_method": 30,
+        "endpoint_class": 6
+    },
+    {
+        "project": "amazon-archives_realworld-serverless-application",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "didi_turbo",
+        "endpoint_method": 5,
+        "endpoint_class": 1
+    },
+    {
+        "project": "open-scratch_teaching-open",
+        "endpoint_method": 496,
+        "endpoint_class": 53
+    },
+    {
+        "project": "yanagishima_yanagishima",
+        "endpoint_method": 43,
+        "endpoint_class": 28
+    },
+    {
+        "project": "newbee-ltd_newbee-mall-api",
+        "endpoint_method": 62,
+        "endpoint_class": 15
+    },
+    {
+        "project": "nacos-group_nacos-spring-boot-project",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "dtinit_data-transfer-project",
+        "endpoint_method": 8,
+        "endpoint_class": 3
+    },
+    {
+        "project": "didi_KnowStreaming",
+        "endpoint_method": 148,
+        "endpoint_class": 40
+    },
+    {
+        "project": "spring-attic_spring-cloud-aws",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-cloud_spring-cloud-zookeeper",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "alibaba_dubbo-spring-boot-starter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "prometheus_client_java",
+        "endpoint_method": 12,
+        "endpoint_class": 9
+    },
+    {
+        "project": "spring-projects_spring-data-jpa",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "hub4j_github-api",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "signalapp_BitHub",
+        "endpoint_method": 5,
+        "endpoint_class": 3
+    },
+    {
+        "project": "spring2go_staffjoy",
+        "endpoint_method": 136,
+        "endpoint_class": 31
+    },
+    {
+        "project": "dromara_forest",
+        "endpoint_method": 38,
+        "endpoint_class": 7
+    },
+    {
+        "project": "apache_aurora",
+        "endpoint_method": 39,
+        "endpoint_class": 24
+    },
+    {
+        "project": "OryxProject_oryx",
+        "endpoint_method": 47,
+        "endpoint_class": 30
+    },
+    {
+        "project": "dockersamples_atsea-sample-shop-app",
+        "endpoint_method": 19,
+        "endpoint_class": 6
+    },
+    {
+        "project": "aws_serverless-java-container",
+        "endpoint_method": 10,
+        "endpoint_class": 4
+    },
+    {
+        "project": "obsidiandynamics_kafdrop",
+        "endpoint_method": 25,
+        "endpoint_class": 7
+    },
+    {
+        "project": "microcks_microcks",
+        "endpoint_method": 86,
+        "endpoint_class": 24
+    },
+    {
+        "project": "spring-projects_spring-data-neo4j",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "oraxen_oraxen",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "Netflix_maestro",
+        "endpoint_method": 56,
+        "endpoint_class": 12
+    },
+    {
+        "project": "modelcontextprotocol_java-sdk",
+        "endpoint_method": 7,
+        "endpoint_class": 3
+    },
+    {
+        "project": "alfio-event_alf.io",
+        "endpoint_method": 390,
+        "endpoint_class": 54
+    },
+    {
+        "project": "hibernate_hibernate-validator",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_rocketmq-spring",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apolloconfig_apollo-use-cases",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "jMetal_jMetal",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-cloud-samples_eureka",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "SeldonIO_seldon-server",
+        "endpoint_method": 36,
+        "endpoint_class": 11
+    },
+    {
+        "project": "vaadin_hilla",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "neo4j-examples_movies-java-spring-data-neo4j",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "eventuate-local_eventuate-local",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "j-easy_easy-rules",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "javaee-samples_javaee7-samples",
+        "endpoint_method": 227,
+        "endpoint_class": 135
+    },
+    {
+        "project": "itmuch_spring-cloud-docker-microservice-book-code",
+        "endpoint_method": 12,
+        "endpoint_class": 7
+    },
+    {
+        "project": "MarquezProject_marquez",
+        "endpoint_method": 48,
+        "endpoint_class": 11
+    },
+    {
+        "project": "cometd_cometd",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "awspring_spring-cloud-aws",
+        "endpoint_method": 4,
+        "endpoint_class": 2
+    },
+    {
+        "project": "spring-attic_spring-social-samples",
+        "endpoint_method": 42,
+        "endpoint_class": 29
+    },
+    {
+        "project": "jaeksoft_opensearchserver",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "OWASP_crAPI",
+        "endpoint_method": 32,
+        "endpoint_class": 8
+    },
+    {
+        "project": "spring-petclinic",
+        "endpoint_method": 17,
+        "endpoint_class": 6
+    },
+    {
+        "project": "opendistro-for-elasticsearch_sql",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "siaorg_sia-gateway",
+        "endpoint_method": 109,
+        "endpoint_class": 43
+    },
+    {
+        "project": "spotify_docker-maven-plugin",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "iotaledger-archive_iri",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "redis_redis-om-spring",
+        "endpoint_method": 60,
+        "endpoint_class": 10
+    },
+    {
+        "project": "opendatadiscovery_odd-platform",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "apache_dubbo-admin",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-guides_gs-spring-boot-docker",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_mina-sshd",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "hellokoding_hellokoding-courses",
+        "endpoint_method": 97,
+        "endpoint_class": 29
+    },
+    {
+        "project": "metersphere_metersphere",
+        "endpoint_method": 258,
+        "endpoint_class": 31
+    },
+    {
+        "project": "nageoffer_12306",
+        "endpoint_method": 53,
+        "endpoint_class": 22
+    },
+    {
+        "project": "zmops_zeus-iot",
+        "endpoint_method": 206,
+        "endpoint_class": 48
+    },
+    {
+        "project": "Alovoa_alovoa",
+        "endpoint_method": 112,
+        "endpoint_class": 32
+    },
+    {
+        "project": "alibaba_QLExpress",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "dromara_cubic",
+        "endpoint_method": 25,
+        "endpoint_class": 8
+    },
+    {
+        "project": "sitewhere_sitewhere",
+        "endpoint_method": 204,
+        "endpoint_class": 27
+    },
+    {
+        "project": "zfile-dev_zfile",
+        "endpoint_method": 104,
+        "endpoint_class": 37
+    },
+    {
+        "project": "spring-projects_spring-hateoas",
+        "endpoint_method": 7,
+        "endpoint_class": 2
+    },
+    {
+        "project": "abixen_abixen-platform",
+        "endpoint_method": 118,
+        "endpoint_class": 44
+    },
+    {
+        "project": "dataease_dataease",
+        "endpoint_method": 583,
+        "endpoint_class": 74
+    },
+    {
+        "project": "spring-projects_spring-batch",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "PhoenicisOrg_phoenicis",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "didi_tinyid",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "aws-samples_kubernetes-for-java-developers",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "WuKongOpenSource_WukongCRM-11.0-JAVA",
+        "endpoint_method": 1238,
+        "endpoint_class": 131
+    },
+    {
+        "project": "digitalinnovationone_santander-dev-week-2023-api",
+        "endpoint_method": 5,
+        "endpoint_class": 1
+    },
+    {
+        "project": "thingsboard_tbmq",
+        "endpoint_method": 104,
+        "endpoint_class": 19
+    },
+    {
+        "project": "mybatis-flex_mybatis-flex",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "alibaba_COLA",
+        "endpoint_method": 6,
+        "endpoint_class": 2
+    },
+    {
+        "project": "blossom-editor_blossom",
+        "endpoint_method": 127,
+        "endpoint_class": 24
+    },
+    {
+        "project": "microsoft_HydraLab",
+        "endpoint_method": 90,
+        "endpoint_class": 10
+    },
+    {
+        "project": "allegro_hermes",
+        "endpoint_method": 90,
+        "endpoint_class": 25
+    },
+    {
+        "project": "rule-engine_rule-engine-open",
+        "endpoint_method": 90,
+        "endpoint_class": 21
+    },
+    {
+        "project": "ucarGroup_DataLink",
+        "endpoint_method": 353,
+        "endpoint_class": 45
+    },
+    {
+        "project": "spring-attic_spring-cloud-security",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "MariaDB4j_MariaDB4j",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "twitter-archive_commons",
+        "endpoint_method": 20,
+        "endpoint_class": 15
+    },
+    {
+        "project": "apache_shardingsphere-example",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "alibaba_cobarclient",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "firebase_firebase-admin-java",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "siddhi-io_siddhi",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "pac4j_pac4j",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "jenkinsci_gitlab-plugin",
+        "endpoint_method": 54,
+        "endpoint_class": 2
+    },
+    {
+        "project": "spring-attic_spring-social",
+        "endpoint_method": 13,
+        "endpoint_class": 2
+    },
+    {
+        "project": "WeBankBlockchain_WeEvent",
+        "endpoint_method": 82,
+        "endpoint_class": 14
+    },
+    {
+        "project": "graphhopper_map-matching",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "resilience4j_resilience4j",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "square_keywhiz",
+        "endpoint_method": 97,
+        "endpoint_class": 23
+    },
+    {
+        "project": "alibaba_SmartEngine",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "dromara_dante-cloud",
+        "endpoint_method": 4,
+        "endpoint_class": 4
+    },
+    {
+        "project": "amigoscode_microservices",
+        "endpoint_method": 5,
+        "endpoint_class": 5
+    },
+    {
+        "project": "wso2_product-is",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "zxing_zxing",
+        "endpoint_method": 4,
+        "endpoint_class": 2
+    },
+    {
+        "project": "dromara_raincat",
+        "endpoint_method": 37,
+        "endpoint_class": 12
+    },
+    {
+        "project": "SonicCloudOrg_sonic-server",
+        "endpoint_method": 138,
+        "endpoint_class": 26
+    },
+    {
+        "project": "wxpusher_wxpusher-sdk-java",
+        "endpoint_method": 9,
+        "endpoint_class": 5
+    },
+    {
+        "project": "la-team_light-admin",
+        "endpoint_method": 19,
+        "endpoint_class": 5
+    },
+    {
+        "project": "line_centraldogma",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "pippo-java_pippo",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "confluentinc_examples",
+        "endpoint_method": 3,
+        "endpoint_class": 1
+    },
+    {
+        "project": "pulsarIO_realtime-analytics",
+        "endpoint_method": 3,
+        "endpoint_class": 1
+    },
+    {
+        "project": "ddd-by-examples_library",
+        "endpoint_method": 7,
+        "endpoint_class": 1
+    },
+    {
+        "project": "apache_dolphinscheduler",
+        "endpoint_method": 301,
+        "endpoint_class": 45
+    },
+    {
+        "project": "springdoc_springdoc-openapi-demos",
+        "endpoint_method": 65,
+        "endpoint_class": 15
+    },
+    {
+        "project": "ssssssss-team_magic-api",
+        "endpoint_method": 33,
+        "endpoint_class": 5
+    },
+    {
+        "project": "Baeldung_spring-security-registration",
+        "endpoint_method": 25,
+        "endpoint_class": 6
+    },
+    {
+        "project": "total_endpoints.json",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-projects_spring-data-relational",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "modelmapper_modelmapper",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "ssssssss-team_spider-flow",
+        "endpoint_method": 42,
+        "endpoint_class": 7
+    },
+    {
+        "project": "Erudika_para",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "runsidekick_sidekick",
+        "endpoint_method": 27,
+        "endpoint_class": 7
+    },
+    {
+        "project": "Netflix_genie",
+        "endpoint_method": 183,
+        "endpoint_class": 13
+    },
+    {
+        "project": "testsigmahq_testsigma",
+        "endpoint_method": 409,
+        "endpoint_class": 101
+    },
+    {
+        "project": "Meituan-Dianping_Zebra",
+        "endpoint_method": 17,
+        "endpoint_class": 4
+    },
+    {
+        "project": "VertaAI_modeldb",
+        "endpoint_method": 5,
+        "endpoint_class": 3
+    },
+    {
+        "project": "roncoo_spring-boot-demo",
+        "endpoint_method": 15,
+        "endpoint_class": 7
+    },
+    {
+        "project": "ff4j_ff4j",
+        "endpoint_method": 38,
+        "endpoint_class": 8
+    },
+    {
+        "project": "ctripcorp_x-pipe",
+        "endpoint_method": 414,
+        "endpoint_class": 68
+    },
+    {
+        "project": "roncoo_roncoo-pay",
+        "endpoint_method": 110,
+        "endpoint_class": 23
+    },
+    {
+        "project": "SpringForAll_spring-boot-starter-swagger",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "bbossgroups_bboss-elasticsearch",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "sofastack_sofa-tracer",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apolloconfig_apollo",
+        "endpoint_method": 234,
+        "endpoint_class": 55
+    },
+    {
+        "project": "mitreid-connect_OpenID-Connect-Java-Spring-Server",
+        "endpoint_method": 81,
+        "endpoint_class": 26
+    },
+    {
+        "project": "pig-mesh_deepseek4j",
+        "endpoint_method": 17,
+        "endpoint_class": 4
+    },
+    {
+        "project": "thymeleaf_thymeleaf",
+        "endpoint_method": 120,
+        "endpoint_class": 36
+    },
+    {
+        "project": "hazelcast_hazelcast-jet",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "codingapi_tx-lcn",
+        "endpoint_method": 7,
+        "endpoint_class": 2
+    },
+    {
+        "project": "digitalfondue_lavagna",
+        "endpoint_method": 192,
+        "endpoint_class": 22
+    },
+    {
+        "project": "google_guice",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "smoothnlp_SmoothNLP",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "apache_openmeetings",
+        "endpoint_method": 58,
+        "endpoint_class": 11
+    },
+    {
+        "project": "Netflix_concurrency-limits",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "unicode-org_cldr",
+        "endpoint_method": 68,
+        "endpoint_class": 29
+    },
+    {
+        "project": "spinnaker_kayenta",
+        "endpoint_method": 67,
+        "endpoint_class": 32
+    },
+    {
+        "project": "nageoffer_congomall",
+        "endpoint_method": 112,
+        "endpoint_class": 41
+    },
+    {
+        "project": "baidu_starlight",
+        "endpoint_method": 20,
+        "endpoint_class": 2
+    },
+    {
+        "project": "BottegaIT_ddd-leaven-v2",
+        "endpoint_method": 3,
+        "endpoint_class": 1
+    },
+    {
+        "project": "WuKongOpenSource_Wukong_HRM",
+        "endpoint_method": 687,
+        "endpoint_class": 89
+    },
+    {
+        "project": "Netflix_SimianArmy",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "debezium_debezium",
+        "endpoint_method": 12,
+        "endpoint_class": 9
+    },
+    {
+        "project": "spring-projects_spring-data-redis",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "newbee-ltd_newbee-mall-plus",
+        "endpoint_method": 100,
+        "endpoint_class": 19
+    },
+    {
+        "project": "kekingcn_kkFileView",
+        "endpoint_method": 14,
+        "endpoint_class": 3
+    },
+    {
+        "project": "steve-community_steve",
+        "endpoint_method": 117,
+        "endpoint_class": 17
+    },
+    {
+        "project": "amigoscode_spring-data-jpa-course",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "hs-web_hsweb-framework",
+        "endpoint_method": 99,
+        "endpoint_class": 23
+    },
+    {
+        "project": "jeecgboot_jimureport",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": ".gitignore",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "mybatis_spring",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "Netflix_conductor",
+        "endpoint_method": 71,
+        "endpoint_class": 8
+    },
+    {
+        "project": "line_line-bot-sdk-java",
+        "endpoint_method": 145,
+        "endpoint_class": 20
+    },
+    {
+        "project": "dromara_hmily",
+        "endpoint_method": 87,
+        "endpoint_class": 14
+    },
+    {
+        "project": "spring-guides_getting-started-guides",
+        "endpoint_method": 3,
+        "endpoint_class": 3
+    },
+    {
+        "project": "QNJR-GROUP_EasyTransaction",
+        "endpoint_method": 7,
+        "endpoint_class": 4
+    },
+    {
+        "project": "Netflix_spectator",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "eclipse_openvsx",
+        "endpoint_method": 67,
+        "endpoint_class": 6
+    },
+    {
+        "project": "oceanbase_odc",
+        "endpoint_method": 441,
+        "endpoint_class": 89
+    },
+    {
+        "project": "spring-cloud_spring-cloud-openfeign",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "LINBIT_linstor-server",
+        "endpoint_method": 185,
+        "endpoint_class": 38
+    },
+    {
+        "project": "apache_submarine",
+        "endpoint_method": 96,
+        "endpoint_class": 20
+    },
+    {
+        "project": "Endava_cats",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "gchq_Gaffer",
+        "endpoint_method": 106,
+        "endpoint_class": 19
+    },
+    {
+        "project": "ddd-by-examples_factory",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "pgjdbc_r2dbc-postgresql",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_freemarker",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "jfaster_mango",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "rest-assured_rest-assured",
+        "endpoint_method": 10,
+        "endpoint_class": 4
+    },
+    {
+        "project": "requery_requery",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "cassandre-tech_cassandre-trading-bot",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "yahoo_mysql_perf_analyzer",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "Netflix_metacat",
+        "endpoint_method": 117,
+        "endpoint_class": 16
+    },
+    {
+        "project": "grpc-ecosystem_grpc-spring",
+        "endpoint_method": 3,
+        "endpoint_class": 3
+    },
+    {
+        "project": "glyptodon_guacamole-client",
+        "endpoint_method": 42,
+        "endpoint_class": 26
+    },
+    {
+        "project": "spring-cloud_spring-cloud-kubernetes",
+        "endpoint_method": 14,
+        "endpoint_class": 10
+    },
+    {
+        "project": "lets-mica_mica",
+        "endpoint_method": 4,
+        "endpoint_class": 2
+    },
+    {
+        "project": "aizuda_snail-job",
+        "endpoint_method": 132,
+        "endpoint_class": 25
+    },
+    {
+        "project": "mybatis_jpetstore-6",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "wyh-spring-ecosystem-student_spring-boot-student",
+        "endpoint_method": 103,
+        "endpoint_class": 35
+    },
+    {
+        "project": "script",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "DSpace",
+        "endpoint_method": 138,
+        "endpoint_class": 50
+    },
+    {
+        "project": "Nepxion_Discovery",
+        "endpoint_method": 151,
+        "endpoint_class": 28
+    },
+    {
+        "project": "Meituan-Dianping_octo-rpc",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "gothinkster_spring-boot-realworld-example-app",
+        "endpoint_method": 19,
+        "endpoint_class": 8
+    },
+    {
+        "project": "amigoscode_spring-boot-security-course",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "nageoffer_shortlink",
+        "endpoint_method": 57,
+        "endpoint_class": 12
+    },
+    {
+        "project": "apache_metron",
+        "endpoint_method": 94,
+        "endpoint_class": 17
+    },
+    {
+        "project": "intel-cloud_cosbench",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_samza",
+        "endpoint_method": 7,
+        "endpoint_class": 5
+    },
+    {
+        "project": "smart-cloud_smart-cloud",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "AwakenCN_InChat",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "openkm_document-management-system",
+        "endpoint_method": 271,
+        "endpoint_class": 74
+    },
+    {
+        "project": "WeBankBlockchain_WeIdentity",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_rocketmq-dashboard",
+        "endpoint_method": 69,
+        "endpoint_class": 16
+    },
+    {
+        "project": "shopizer",
+        "endpoint_method": 312,
+        "endpoint_class": 56
+    },
+    {
+        "project": "GoogleCloudPlatform_bank-of-anthos",
+        "endpoint_method": 17,
+        "endpoint_class": 4
+    },
+    {
+        "project": "spring-cloud_spring-cloud-stream",
+        "endpoint_method": 7,
+        "endpoint_class": 1
+    },
+    {
+        "project": "continew-org_continew-admin",
+        "endpoint_method": 108,
+        "endpoint_class": 29
+    },
+    {
+        "project": "didi_super-jacoco",
+        "endpoint_method": 5,
+        "endpoint_class": 1
+    },
+    {
+        "project": "sofastack_sofa-ark",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "baidu_uid-generator",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "WeBankFinTech_Qualitis",
+        "endpoint_method": 338,
+        "endpoint_class": 59
+    },
+    {
+        "project": "alibaba_cobar",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "vivo_MoonBox",
+        "endpoint_method": 52,
+        "endpoint_class": 13
+    },
+    {
+        "project": "spring-guides_gs-rest-service",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "fast-excel_fastexcel",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "LianjiaTech_retrofit-spring-boot-starter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_hertzbeat",
+        "endpoint_method": 197,
+        "endpoint_class": 47
+    },
+    {
+        "project": "mybatis-book_book",
+        "endpoint_method": 8,
+        "endpoint_class": 4
+    },
+    {
+        "project": "spring-projects_spring-data-rest",
+        "endpoint_method": 36,
+        "endpoint_class": 10
+    },
+    {
+        "project": "jolokia_jolokia",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "SonicCloudOrg_sonic-agent",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "apache_eventmesh",
+        "endpoint_method": 15,
+        "endpoint_class": 4
+    },
+    {
+        "project": "googleads_googleads-mobile-android-examples",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "killbill_killbill",
+        "endpoint_method": 299,
+        "endpoint_class": 25
+    },
+    {
+        "project": "kekingcn_spring-boot-klock-starter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "TDuckCloud_tduck-platform",
+        "endpoint_method": 118,
+        "endpoint_class": 20
+    },
+    {
+        "project": "cBioPortal_cbioportal",
+        "endpoint_method": 214,
+        "endpoint_class": 75
+    },
+    {
+        "project": "spring-guides_tut-spring-boot-oauth2",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "HotswapProjects_HotswapAgent",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "ofbiz-framework",
+        "endpoint_method": 13,
+        "endpoint_class": 7
+    },
+    {
+        "project": "cargotracker",
+        "endpoint_method": 5,
+        "endpoint_class": 3
+    },
+    {
+        "project": "apache_servicecomb-pack",
+        "endpoint_method": 58,
+        "endpoint_class": 19
+    },
+    {
+        "project": "freechat-fun_freechat",
+        "endpoint_method": 210,
+        "endpoint_class": 25
+    },
+    {
+        "project": "apache_dubbo-spring-boot-project",
+        "endpoint_method": 8,
+        "endpoint_class": 4
+    },
+    {
+        "project": "ddd-by-examples_all-things-cqrs",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "codecentric_spring-boot-admin",
+        "endpoint_method": 24,
+        "endpoint_class": 6
+    },
+    {
+        "project": "cloudfoundry_uaa",
+        "endpoint_method": 154,
+        "endpoint_class": 40
+    },
+    {
+        "project": "j-easy_easy-batch",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "Netflix_suro",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "proxyee-down-org_proxyee-down",
+        "endpoint_method": 25,
+        "endpoint_class": 3
+    },
+    {
+        "project": "fizzgate_fizz-gateway-node",
+        "endpoint_method": 20,
+        "endpoint_class": 7
+    },
+    {
+        "project": "paoding-code_paoding-rose",
+        "endpoint_method": 2,
+        "endpoint_class": 2
+    },
+    {
+        "project": "AlphaWallet_alpha-wallet-android",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "eventuate-tram_eventuate-tram-sagas",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "dromara_orion-visor",
+        "endpoint_method": 276,
+        "endpoint_class": 52
+    },
+    {
+        "project": "eventuate-tram_eventuate-tram-core",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "netease-im_camellia",
+        "endpoint_method": 146,
+        "endpoint_class": 29
+    },
+    {
+        "project": "p6spy_p6spy",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "OCR4all_OCR4all",
+        "endpoint_method": 115,
+        "endpoint_class": 17
+    },
+    {
+        "project": "spring-guides_gs-spring-boot",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "dromara_easy-es",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "apache_cassandra-java-driver",
+        "endpoint_method": 4,
+        "endpoint_class": 2
+    },
+    {
+        "project": "mock-server_mockserver",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "jeecgboot_jeewx-boot",
+        "endpoint_method": 257,
+        "endpoint_class": 34
+    },
+    {
+        "project": "camunda_camunda-bpm-examples",
+        "endpoint_method": 5,
+        "endpoint_class": 5
+    },
+    {
+        "project": "apache_guacamole-client",
+        "endpoint_method": 42,
+        "endpoint_class": 26
+    },
+    {
+        "project": "apache_incubator-seata-samples",
+        "endpoint_method": 13,
+        "endpoint_class": 10
+    },
+    {
+        "project": "airbnb_airpal",
+        "endpoint_method": 26,
+        "endpoint_class": 13
+    },
+    {
+        "project": "line_line-fido2-server",
+        "endpoint_method": 22,
+        "endpoint_class": 10
+    },
+    {
+        "project": "jhipster_jhipster-lite",
+        "endpoint_method": 11,
+        "endpoint_class": 5
+    },
+    {
+        "project": "spotify_docker-client",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "newbee-ltd_newbee-mall",
+        "endpoint_method": 73,
+        "endpoint_class": 14
+    },
+    {
+        "project": "dromara_liteflow",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "jodconverter_jodconverter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "opensourceBIM_BIMserver",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "oktadev_java-microservices-examples",
+        "endpoint_method": 59,
+        "endpoint_class": 24
+    },
+    {
+        "project": "kafbat_kafka-ui",
+        "endpoint_method": 93,
+        "endpoint_class": 17
+    },
+    {
+        "project": "alibaba_easyexcel",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "jar-analyzer_jar-analyzer-v1-gui",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "intuit_wasabi",
+        "endpoint_method": 101,
+        "endpoint_class": 16
+    },
+    {
+        "project": "spring-cloud_spring-cloud-consul",
+        "endpoint_method": 9,
+        "endpoint_class": 2
+    },
+    {
+        "project": "psi-probe_psi-probe",
+        "endpoint_method": 110,
+        "endpoint_class": 108
+    },
+    {
+        "project": "DiscordSRV_DiscordSRV",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-cloud_spring-cloud-commons",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "alibaba_Sentinel",
+        "endpoint_method": 91,
+        "endpoint_class": 27
+    },
+    {
+        "project": "Erudika_scoold",
+        "endpoint_method": 184,
+        "endpoint_class": 23
+    },
+    {
+        "project": "spring-projects_spring-shell",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "HubSpot_Singularity",
+        "endpoint_method": 219,
+        "endpoint_class": 28
+    },
+    {
+        "project": "microsoft_mcp-for-beginners",
+        "endpoint_method": 7,
+        "endpoint_class": 4
+    },
+    {
+        "project": "FastBootWeixin_FastBootWeixin",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "gaia-app_gaia",
+        "endpoint_method": 35,
+        "endpoint_class": 7
+    },
+    {
+        "project": "WuKongOpenSource_Wukong_nocode",
+        "endpoint_method": 125,
+        "endpoint_class": 29
+    },
+    {
+        "project": "Huawei-Hadoop_hindex",
+        "endpoint_method": 27,
+        "endpoint_class": 15
+    },
+    {
+        "project": "getmoneynote_moneynote-api",
+        "endpoint_method": 104,
+        "endpoint_class": 15
+    },
+    {
+        "project": "netgloo_spring-boot-samples",
+        "endpoint_method": 10,
+        "endpoint_class": 4
+    },
+    {
+        "project": "crmeb_crmeb_java",
+        "endpoint_method": 480,
+        "endpoint_class": 93
+    },
+    {
+        "project": "alibaba_taokeeper",
+        "endpoint_method": 14,
+        "endpoint_class": 7
+    },
+    {
+        "project": "pig-mesh_excel-spring-boot-starter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "weiboad_fiery",
+        "endpoint_method": 20,
+        "endpoint_class": 17
+    },
+    {
+        "project": "HummerRisk_HummerRisk",
+        "endpoint_method": 608,
+        "endpoint_class": 41
+    },
+    {
+        "project": "TEAMMATES_teammates",
+        "endpoint_method": 11,
+        "endpoint_class": 8
+    },
+    {
+        "project": "greenmail-mail-test_greenmail",
+        "endpoint_method": 13,
+        "endpoint_class": 2
+    },
+    {
+        "project": "TNG_ArchUnit-Examples",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "datavane_datavines",
+        "endpoint_method": 165,
+        "endpoint_class": 23
+    },
+    {
+        "project": "renrenio_renren-security",
+        "endpoint_method": 77,
+        "endpoint_class": 19
+    },
+    {
+        "project": "PebbleTemplates_pebble",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "CodePhiliaX_Chat2DB",
+        "endpoint_method": 189,
+        "endpoint_class": 48
+    },
+    {
+        "project": "OpenSPG_openspg",
+        "endpoint_method": 73,
+        "endpoint_class": 15
+    },
+    {
+        "project": "youlaitech_youlai-mall",
+        "endpoint_method": 147,
+        "endpoint_class": 29
+    },
+    {
+        "project": "jdbc-observations_datasource-proxy",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "vipshop_Saturn",
+        "endpoint_method": 157,
+        "endpoint_class": 30
+    },
+    {
+        "project": "pinterest_DoctorK",
+        "endpoint_method": 10,
+        "endpoint_class": 6
+    },
+    {
+        "project": "awslabs_aws-saas-boost",
+        "endpoint_method": 24,
+        "endpoint_class": 7
+    },
+    {
+        "project": "tensorflow_java",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "iqq-team_iqq",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "baomidou_mybatis-plus",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "stagemonitor_stagemonitor",
+        "endpoint_method": 13,
+        "endpoint_class": 11
+    },
+    {
+        "project": "alibaba_yugong",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "zalando_nakadi",
+        "endpoint_method": 54,
+        "endpoint_class": 18
+    },
+    {
+        "project": "baomidou_dynamic-datasource",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "alibaba_spring-cloud-alibaba",
+        "endpoint_method": 71,
+        "endpoint_class": 34
+    },
+    {
+        "project": "ngbdf_redis-manager",
+        "endpoint_method": 123,
+        "endpoint_class": 17
+    },
+    {
+        "project": "Meituan-Dianping_Leaf",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "baidu_Jprotobuf-rpc-socket",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-cloud_spring-cloud-netflix",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "uber-archive_AthenaX",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "springfox_springfox",
+        "endpoint_method": 255,
+        "endpoint_class": 35
+    },
+    {
+        "project": "desktopqa_Cynthia",
+        "endpoint_method": 97,
+        "endpoint_class": 20
+    },
+    {
+        "project": "exadel-inc_CompreFace",
+        "endpoint_method": 66,
+        "endpoint_class": 17
+    },
+    {
+        "project": "spring-io_start.spring.io",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "CrawlScript_WebCollector",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "census-instrumentation_opencensus-java",
+        "endpoint_method": 5,
+        "endpoint_class": 2
+    },
+    {
+        "project": "apache_incubator-kie-optaplanner",
+        "endpoint_method": 7,
+        "endpoint_class": 7
+    },
+    {
+        "project": "LogNet_grpc-spring-boot-starter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "Netflix_ribbon",
+        "endpoint_method": 21,
+        "endpoint_class": 2
+    },
+    {
+        "project": "dromara_gobrs-async",
+        "endpoint_method": 6,
+        "endpoint_class": 1
+    },
+    {
+        "project": "tmobile_pacbot",
+        "endpoint_method": 262,
+        "endpoint_class": 48
+    },
+    {
+        "project": "dromara_x-file-storage",
+        "endpoint_method": 5,
+        "endpoint_class": 1
+    },
+    {
+        "project": "TraceNature_redissyncer-server",
+        "endpoint_method": 21,
+        "endpoint_class": 6
+    },
+    {
+        "project": "e-commerce-sample_ecommerce-order-service",
+        "endpoint_method": 7,
+        "endpoint_class": 2
+    },
+    {
+        "project": "Netflix_eureka",
+        "endpoint_method": 18,
+        "endpoint_class": 11
+    },
+    {
+        "project": "roncoo_roncoo-education",
+        "endpoint_method": 266,
+        "endpoint_class": 69
+    },
+    {
+        "project": "G-Joker_WeaponApp",
+        "endpoint_method": 6,
+        "endpoint_class": 3
+    },
+    {
+        "project": "apilayer_restcountries",
+        "endpoint_method": 27,
+        "endpoint_class": 3
+    },
+    {
+        "project": "alibaba_asyncload",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-petclinic_spring-petclinic-microservices",
+        "endpoint_method": 15,
+        "endpoint_class": 7
+    },
+    {
+        "project": "odpi_egeria",
+        "endpoint_method": 1094,
+        "endpoint_class": 71
+    },
+    {
+        "project": "datavane_datasophon",
+        "endpoint_method": 209,
+        "endpoint_class": 37
+    },
+    {
+        "project": ".git",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "nacos-group_nacos-spring-project",
+        "endpoint_method": 4,
+        "endpoint_class": 1
+    },
+    {
+        "project": "alibaba_AGEIPort",
+        "endpoint_method": 13,
+        "endpoint_class": 5
+    },
+    {
+        "project": "anji-plus_captcha",
+        "endpoint_method": 9,
+        "endpoint_class": 4
+    },
+    {
+        "project": "Netflix_Hystrix",
+        "endpoint_method": 5,
+        "endpoint_class": 5
+    },
+    {
+        "project": "Activiti_Activiti",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "spring-cloud_spring-cloud-gateway",
+        "endpoint_method": 17,
+        "endpoint_class": 6
+    },
+    {
+        "project": "Nepxion_DiscoveryGuide",
+        "endpoint_method": 4,
+        "endpoint_class": 4
+    },
+    {
+        "project": "soabase_exhibitor",
+        "endpoint_method": 44,
+        "endpoint_class": 5
+    },
+    {
+        "project": "ethereum_ethereumj",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "FlowCI_flow-core-x",
+        "endpoint_method": 106,
+        "endpoint_class": 21
+    },
+    {
+        "project": "spotify_helios",
+        "endpoint_method": 27,
+        "endpoint_class": 8
+    },
+    {
+        "project": "ohsome-api",
+        "endpoint_method": 80,
+        "endpoint_class": 10
+    },
+    {
+        "project": "open-job_openjob",
+        "endpoint_method": 58,
+        "endpoint_class": 19
+    },
+    {
+        "project": "spring-attic_spring-roo",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "apache_linkis",
+        "endpoint_method": 334,
+        "endpoint_class": 49
+    },
+    {
+        "project": "spring-guides_gs-messaging-stomp-websocket",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "alibaba_bytekit",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "xiaolyuh_layering-cache",
+        "endpoint_method": 13,
+        "endpoint_class": 4
+    },
+    {
+        "project": "airsonic_airsonic",
+        "endpoint_method": 152,
+        "endpoint_class": 64
+    },
+    {
+        "project": "uniVocity_univocity-trader",
+        "endpoint_method": 30,
+        "endpoint_class": 1
+    },
+    {
+        "project": "EMB",
+        "error": "'NoneType' object has no attribute 'field_declarations'",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "alibaba_otter",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "ICT-BDA_EasyML",
+        "endpoint_method": 13,
+        "endpoint_class": 4
+    },
+    {
+        "project": "ls1intum_Artemis",
+        "endpoint_method": 934,
+        "endpoint_class": 190
+    },
+    {
+        "project": "mapstruct_mapstruct",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "akto-api-security_akto",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "restlet_restlet-framework-java",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "espertechinc_esper",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "apache_zeppelin",
+        "endpoint_method": 88,
+        "endpoint_class": 13
+    },
+    {
+        "project": "pravega_pravega",
+        "endpoint_method": 51,
+        "endpoint_class": 7
+    },
+    {
+        "project": "apache_storm",
+        "endpoint_method": 44,
+        "endpoint_class": 4
+    },
+    {
+        "project": "locationtech_geowave",
+        "endpoint_method": 70,
+        "endpoint_class": 11
+    },
+    {
+        "project": "doublechaintech_scm-biz-suite",
+        "endpoint_method": 2,
+        "endpoint_class": 1
+    },
+    {
+        "project": "jOOQ_jOOQ",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "project": "OWASP-Benchmark_BenchmarkJava",
+        "endpoint_method": 5483,
+        "endpoint_class": 2741
+    },
+    {
+        "project": "axelor_axelor-open-suite",
+        "endpoint_method": 125,
+        "endpoint_class": 50
+    },
+    {
+        "project": "OpenAPITools_openapi-generator",
+        "endpoint_method": 181,
+        "endpoint_class": 37
+    },
+    {
+        "project": "JumpMind_symmetric-ds",
+        "endpoint_method": 1,
+        "endpoint_class": 1
+    },
+    {
+        "project": "java110_MicroCommunity",
+        "endpoint_method": 3633,
+        "endpoint_class": 693
+    },
+    {
+        "project": "apple_servicetalk",
+        "endpoint_method": 147,
+        "endpoint_class": 9
+    },
+    {
+        "project": "hyperledger_besu",
+        "endpoint_method": 0,
+        "endpoint_class": 0
+    },
+    {
+        "overall_result": "",
+        "endpoint_method": 34729,
+        "endpoint_class": 8739
+    }
+]

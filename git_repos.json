@@ -1,0 +1,2102 @@
+[
+    {
+        "name": ".git",
+        "github_url": "git@github.ibm.com:AsterLLM/coaster-dataset.git",
+        "commit": "3481e80b942fd88f43090842ab889afb247d7e47"
+    },
+    {
+        "name": "Activiti_Activiti",
+        "github_url": "git@github.com:Activiti/Activiti.git",
+        "commit": "e4f5ee37940827b822e737bb1933433b2fd0d31d"
+    },
+    {
+        "name": "Alovoa_alovoa",
+        "github_url": "git@github.com:Alovoa/alovoa.git",
+        "commit": "59d391f440ca43eda5ee1b53cbd0e2cdc3daf54a"
+    },
+    {
+        "name": "AlphaWallet_alpha-wallet-android",
+        "github_url": "git@github.com:AlphaWallet/alpha-wallet-android.git",
+        "commit": "c873a4ac636b3f64c1ca888fcf61020988b520d9"
+    },
+    {
+        "name": "AwakenCN_InChat",
+        "github_url": "git@github.com:AwakenCN/InChat.git",
+        "commit": "329de8bc3042b49aeaeb816d38b56e9de4226049"
+    },
+    {
+        "name": "Baeldung_spring-security-registration",
+        "github_url": "git@github.com:Baeldung/spring-security-registration.git",
+        "commit": "ddfba5867b5eba89a5e0b717b2ff247456b87a80"
+    },
+    {
+        "name": "BottegaIT_ddd-leaven-v2",
+        "github_url": "git@github.com:BottegaIT/ddd-leaven-v2.git",
+        "commit": "a1a0cf597e430cf58afe627cd5a724fa33665d2e"
+    },
+    {
+        "name": "CodePhiliaX_Chat2DB",
+        "github_url": "git@github.com:CodePhiliaX/Chat2DB.git",
+        "commit": "a6b6b9423a2a0cde89754715734fcc85e096be2c"
+    },
+    {
+        "name": "CrawlScript_WebCollector",
+        "github_url": "git@github.com:CrawlScript/WebCollector.git",
+        "commit": "2c2a464a71bf9f3809deb10d43df39ecd18a5c30"
+    },
+    {
+        "name": "DSpace",
+        "github_url": "git@github.com:DSpace/DSpace.git",
+        "commit": "2205bb18b1786b71d6cef876e67566d35c04bb49"
+    },
+    {
+        "name": "DiscordSRV_DiscordSRV",
+        "github_url": "git@github.com:DiscordSRV/DiscordSRV.git",
+        "commit": "914566d0c452ecaa54ebd3eec2c6c96b27386568"
+    },
+    {
+        "name": "EMB",
+        "github_url": "git@github.com:aster-test-generation/EMB.git",
+        "commit": "5fdab66834d06869be56c50129b962c5c524a98e"
+    },
+    {
+        "name": "Endava_cats",
+        "github_url": "git@github.com:Endava/cats.git",
+        "commit": "6ffe3dc42f373c8da8d7b0ab2214916b68373d79"
+    },
+    {
+        "name": "Erudika_para",
+        "github_url": "git@github.com:Erudika/para.git",
+        "commit": "af99e11607ed59291a312145a82ea7a1ace74f51"
+    },
+    {
+        "name": "Erudika_scoold",
+        "github_url": "git@github.com:Erudika/scoold.git",
+        "commit": "5f8cba1bbc383d68dee0e5b6af2ed432fa460cf5"
+    },
+    {
+        "name": "FastBootWeixin_FastBootWeixin",
+        "github_url": "git@github.com:FastBootWeixin/FastBootWeixin.git",
+        "commit": "3d46715e5f706926076afa7e173f48563b36b8fd"
+    },
+    {
+        "name": "FlowCI_flow-core-x",
+        "github_url": "git@github.com:FlowCI/flow-core-x.git",
+        "commit": "df5cdacae514859094b0b4098aae35637df250a9"
+    },
+    {
+        "name": "G-Joker_WeaponApp",
+        "github_url": "git@github.com:G-Joker/WeaponApp.git",
+        "commit": "861ab5f78d220ae1ebaa2dc7eecc3d53de1b7069"
+    },
+    {
+        "name": "GoogleCloudPlatform_bank-of-anthos",
+        "github_url": "git@github.com:GoogleCloudPlatform/bank-of-anthos.git",
+        "commit": "90fcff6a1347e986bbe57253e419399fc6d51699"
+    },
+    {
+        "name": "HotswapProjects_HotswapAgent",
+        "github_url": "git@github.com:HotswapProjects/HotswapAgent.git",
+        "commit": "0076da38978593ee3d34b29afda093af1ae19e32"
+    },
+    {
+        "name": "Huawei-Hadoop_hindex",
+        "github_url": "git@github.com:Huawei-Hadoop/hindex.git",
+        "commit": "9aa98d80543f069208f651322c38029d35d694ac"
+    },
+    {
+        "name": "HubSpot_Singularity",
+        "github_url": "git@github.com:HubSpot/Singularity.git",
+        "commit": "15688f486fc9286878eff40b51789c88bd6899d5"
+    },
+    {
+        "name": "HummerRisk_HummerRisk",
+        "github_url": "git@github.com:HummerRisk/HummerRisk.git",
+        "commit": "935a2efd78671a2a5cea0cc4480643a81313102a"
+    },
+    {
+        "name": "ICT-BDA_EasyML",
+        "github_url": "git@github.com:ICT-BDA/EasyML.git",
+        "commit": "b3a7bb57476090496b0ae4c6def83f1e171f4339"
+    },
+    {
+        "name": "JumpMind_symmetric-ds",
+        "github_url": "git@github.com:JumpMind/symmetric-ds.git",
+        "commit": "f0f320d2a4cd0fda5ea48f3ef49b0a53b818a964"
+    },
+    {
+        "name": "LINBIT_linstor-server",
+        "github_url": "git@github.com:LINBIT/linstor-server.git",
+        "commit": "ff8272fe5ab23eccc1e64336ee0cee076cda3c83"
+    },
+    {
+        "name": "LianjiaTech_retrofit-spring-boot-starter",
+        "github_url": "git@github.com:LianjiaTech/retrofit-spring-boot-starter.git",
+        "commit": "28046cfe291eec06bb6c0a61bca54fbdd12cd99c"
+    },
+    {
+        "name": "LogNet_grpc-spring-boot-starter",
+        "github_url": "git@github.com:LogNet/grpc-spring-boot-starter.git",
+        "commit": "15ea1b87932ab2841f3d7e5a9e49e72f199c5921"
+    },
+    {
+        "name": "MariaDB4j_MariaDB4j",
+        "github_url": "git@github.com:MariaDB4j/MariaDB4j.git",
+        "commit": "67753c639d83fc2de465ba2b9e02a6fe74c0fab4"
+    },
+    {
+        "name": "MarquezProject_marquez",
+        "github_url": "git@github.com:MarquezProject/marquez.git",
+        "commit": "a89b89cad27f87c90dd964c40dae8dfb3f64031f"
+    },
+    {
+        "name": "Meituan-Dianping_Leaf",
+        "github_url": "git@github.com:Meituan-Dianping/Leaf.git",
+        "commit": "86a6441d263497b9f9ee321de13422b9c63f0c06"
+    },
+    {
+        "name": "Meituan-Dianping_Zebra",
+        "github_url": "git@github.com:Meituan-Dianping/Zebra.git",
+        "commit": "33d74b831abe7e8e2d29f8c4e145e46ba17432dc"
+    },
+    {
+        "name": "Meituan-Dianping_octo-rpc",
+        "github_url": "git@github.com:Meituan-Dianping/octo-rpc.git",
+        "commit": "b7aaefe900368cfc4edf1fd793a2521e9f48aec1"
+    },
+    {
+        "name": "Nepxion_Discovery",
+        "github_url": "git@github.com:Nepxion/Discovery.git",
+        "commit": "2a5a8e949846a8b5ea7cdf995d2116cd3c7e40e5"
+    },
+    {
+        "name": "Nepxion_DiscoveryGuide",
+        "github_url": "git@github.com:Nepxion/DiscoveryGuide.git",
+        "commit": "0b478522f6cfa4a4c61b8bf64bb35525c6872226"
+    },
+    {
+        "name": "Netflix_Hystrix",
+        "github_url": "git@github.com:Netflix/Hystrix.git",
+        "commit": "7c03bafe32b518182e09e92fa57358a01043a504"
+    },
+    {
+        "name": "Netflix_Prana",
+        "github_url": "git@github.com:Netflix/Prana.git",
+        "commit": "11b3f80b69e8614a00a84b52e39c5ee6f97e5546"
+    },
+    {
+        "name": "Netflix_Priam",
+        "github_url": "git@github.com:Netflix/Priam.git",
+        "commit": "047b45545e98f47a27b17791ac4ec3c0a7f4a5fd"
+    },
+    {
+        "name": "Netflix_SimianArmy",
+        "github_url": "git@github.com:Netflix/SimianArmy.git",
+        "commit": "e8eb9f3bad23962d03db4af936abeeabd8b4071b"
+    },
+    {
+        "name": "Netflix_concurrency-limits",
+        "github_url": "git@github.com:Netflix/concurrency-limits.git",
+        "commit": "26e9fca4b0341355cbfc4fa7e9911b812a794583"
+    },
+    {
+        "name": "Netflix_conductor",
+        "github_url": "git@github.com:Netflix/conductor.git",
+        "commit": "548f386c2c6c1e4d467b8551edbb6182881004ae"
+    },
+    {
+        "name": "Netflix_eureka",
+        "github_url": "git@github.com:Netflix/eureka.git",
+        "commit": "015400c60d3dc730c3fc4871e9b586d3805cce0d"
+    },
+    {
+        "name": "Netflix_genie",
+        "github_url": "git@github.com:Netflix/genie.git",
+        "commit": "81f36f93b02fe47ee78493039fc1a8dd8c3154eb"
+    },
+    {
+        "name": "Netflix_maestro",
+        "github_url": "git@github.com:Netflix/maestro.git",
+        "commit": "7a24f92947f65419ade0baa7a1d12a28c1c648b5"
+    },
+    {
+        "name": "Netflix_metacat",
+        "github_url": "git@github.com:Netflix/metacat.git",
+        "commit": "fda8670cd06f949f92d38e46a903e0de55f93ec4"
+    },
+    {
+        "name": "Netflix_ribbon",
+        "github_url": "git@github.com:Netflix/ribbon.git",
+        "commit": "625e1678cdcf176f494778fcd6be003bca97b88d"
+    },
+    {
+        "name": "Netflix_spectator",
+        "github_url": "git@github.com:Netflix/spectator.git",
+        "commit": "990d7e2f294a08f3d01b00b8b31d2fb42968184d"
+    },
+    {
+        "name": "Netflix_suro",
+        "github_url": "git@github.com:Netflix/suro.git",
+        "commit": "e73d1a2e5b0492e41feb5a57d9e2a2e741a38453"
+    },
+    {
+        "name": "OAuth-Apis_apis",
+        "github_url": "git@github.com:OAuth-Apis/apis.git",
+        "commit": "ec57f6e56f9cd7b497c64820259be83c39dabdb8"
+    },
+    {
+        "name": "OCR4all_OCR4all",
+        "github_url": "git@github.com:OCR4all/OCR4all.git",
+        "commit": "a0a94fb89aae1f60c77286be4e7033a78e961525"
+    },
+    {
+        "name": "OWASP-Benchmark_BenchmarkJava",
+        "github_url": "git@github.com:OWASP-Benchmark/BenchmarkJava.git",
+        "commit": "2665e65228fdf6b794d4cce4e5ade2f77e26cc71"
+    },
+    {
+        "name": "OWASP_crAPI",
+        "github_url": "git@github.com:OWASP/crAPI.git",
+        "commit": "2db01c32f67de7c7f517a8db409d71a725d74d3e"
+    },
+    {
+        "name": "OWASP_wrongsecrets",
+        "github_url": "git@github.com:OWASP/wrongsecrets.git",
+        "commit": "accf1a82e8599c9179ee6bcbea78a8aec444c8e4"
+    },
+    {
+        "name": "OpenAPITools_openapi-generator",
+        "github_url": "git@github.com:OpenAPITools/openapi-generator.git",
+        "commit": "0ae50f5a103fae7ca34980dd18aa9600598a274f"
+    },
+    {
+        "name": "OpenSPG_openspg",
+        "github_url": "git@github.com:OpenSPG/openspg.git",
+        "commit": "ceeb3ef549df79ca4c4878e7ff452c73584991f3"
+    },
+    {
+        "name": "OryxProject_oryx",
+        "github_url": "git@github.com:OryxProject/oryx.git",
+        "commit": "1bdcea7107dbe8666cf8d112acf90de47db6ce33"
+    },
+    {
+        "name": "PebbleTemplates_pebble",
+        "github_url": "git@github.com:PebbleTemplates/pebble.git",
+        "commit": "88da8e243a37e2bbc2b55bc4b4f207e5dce1c5fa"
+    },
+    {
+        "name": "PhoenicisOrg_phoenicis",
+        "github_url": "git@github.com:PhoenicisOrg/phoenicis.git",
+        "commit": "c17e6bb5b434f3753c55c60ff194a6e938059a34"
+    },
+    {
+        "name": "PlayEdu_PlayEdu",
+        "github_url": "git@github.com:PlayEdu/PlayEdu.git",
+        "commit": "09fbd8e3a5288e9d1a9a81b91248e3481c2b8eb2"
+    },
+    {
+        "name": "Project-Books_book-project",
+        "github_url": "git@github.com:Project-Books/book-project.git",
+        "commit": "7c4d59fdd8c008191d6e1a83ce1f76c187556bff"
+    },
+    {
+        "name": "QNJR-GROUP_EasyTransaction",
+        "github_url": "git@github.com:QNJR-GROUP/EasyTransaction.git",
+        "commit": "cadfc96d2d6fc9df1243f8b18f47b29a28b76ae2"
+    },
+    {
+        "name": "Qihoo360_hbox",
+        "github_url": "git@github.com:Qihoo360/hbox.git",
+        "commit": "b5eb493fc35a63d3faef055b85326ce79d628233"
+    },
+    {
+        "name": "SeldonIO_seldon-server",
+        "github_url": "git@github.com:SeldonIO/seldon-server.git",
+        "commit": "bbb756637c8c3f1b2d0ceef6d5d00f27cf4b84ab"
+    },
+    {
+        "name": "SonicCloudOrg_sonic-agent",
+        "github_url": "git@github.com:SonicCloudOrg/sonic-agent.git",
+        "commit": "acae68d4abe2a5cf22db732368912446f2172a9e"
+    },
+    {
+        "name": "SonicCloudOrg_sonic-server",
+        "github_url": "git@github.com:SonicCloudOrg/sonic-server.git",
+        "commit": "90d333c22eb3a6cc9f31686c861f246ecfcea5af"
+    },
+    {
+        "name": "SpringForAll_spring-boot-starter-swagger",
+        "github_url": "git@github.com:SpringForAll/spring-boot-starter-swagger.git",
+        "commit": "f8940cf1f5a53b9811c88cd76fde25ba94f759d6"
+    },
+    {
+        "name": "SpringForAll_springcloud-thoth",
+        "github_url": "git@github.com:SpringForAll/springcloud-thoth.git",
+        "commit": "8849ecdc645d90fbbab0be707b6129610abf76b2"
+    },
+    {
+        "name": "TDuckCloud_tduck-platform",
+        "github_url": "git@github.com:TDuckCloud/tduck-platform.git",
+        "commit": "080ace97cc9929238fff4254aa6cf36c2ac27cff"
+    },
+    {
+        "name": "TEAMMATES_teammates",
+        "github_url": "git@github.com:TEAMMATES/teammates.git",
+        "commit": "97529ea97853d3f9b9925029bf2c34aa09fd9817"
+    },
+    {
+        "name": "TNG_ArchUnit-Examples",
+        "github_url": "git@github.com:TNG/ArchUnit-Examples.git",
+        "commit": "04af3ff382d37e05e9cb226ff8e304bf36a7ff6c"
+    },
+    {
+        "name": "TraceNature_redissyncer-server",
+        "github_url": "git@github.com:TraceNature/redissyncer-server.git",
+        "commit": "c9927901478a809cf81ef3cf8ce4b7e669b36045"
+    },
+    {
+        "name": "VertaAI_modeldb",
+        "github_url": "git@github.com:VertaAI/modeldb.git",
+        "commit": "1833ba889859a0e35f22f754ecf20b6b352aa87f"
+    },
+    {
+        "name": "WeBankBlockchain_WeEvent",
+        "github_url": "git@github.com:WeBankBlockchain/WeEvent.git",
+        "commit": "048dc9e8d1bb25b40f2a45465e5b64efb007f574"
+    },
+    {
+        "name": "WeBankBlockchain_WeIdentity",
+        "github_url": "git@github.com:WeBankBlockchain/WeIdentity.git",
+        "commit": "2f8e4b5a7e208790af7e2697b061550c91560e98"
+    },
+    {
+        "name": "WeBankFinTech_Qualitis",
+        "github_url": "git@github.com:WeBankFinTech/Qualitis.git",
+        "commit": "533f52cd0cb5d0fa1d8e8d8bff7b9fb26de9297c"
+    },
+    {
+        "name": "WuKongOpenSource_WukongCRM-11.0-JAVA",
+        "github_url": "git@github.com:WuKongOpenSource/WukongCRM-11.0-JAVA.git",
+        "commit": "1fa4ec2fdf727111eca73ef4c94dfbb7712c83bb"
+    },
+    {
+        "name": "WuKongOpenSource_Wukong_HRM",
+        "github_url": "git@github.com:WuKongOpenSource/Wukong_HRM.git",
+        "commit": "1228ac44017d18fbaf207e8363ca00e83625dd33"
+    },
+    {
+        "name": "WuKongOpenSource_Wukong_nocode",
+        "github_url": "git@github.com:WuKongOpenSource/Wukong_nocode.git",
+        "commit": "256ab5bf6ee9a5f2f49071dcd2331e0495c5787d"
+    },
+    {
+        "name": "abixen_abixen-platform",
+        "github_url": "git@github.com:abixen/abixen-platform.git",
+        "commit": "7227b32852b08216a42665f9167dff0ed112c3f8"
+    },
+    {
+        "name": "airbnb_airpal",
+        "github_url": "git@github.com:airbnb/airpal.git",
+        "commit": "f79d2c1708a2d246029289b0e14fba4c7a51ef60"
+    },
+    {
+        "name": "airsonic_airsonic",
+        "github_url": "git@github.com:airsonic/airsonic.git",
+        "commit": "5ccca059d5cfe3dd19734c27861b434ea21b43d8"
+    },
+    {
+        "name": "aizuda_snail-job",
+        "github_url": "git@github.com:aizuda/snail-job.git",
+        "commit": "3675be47113554e1b107fd90bf8f52a4f02afeb0"
+    },
+    {
+        "name": "akto-api-security_akto",
+        "github_url": "git@github.com:akto-api-security/akto.git",
+        "commit": "5150b48890e20f2936d1650a4a1688641115d0f1"
+    },
+    {
+        "name": "alfio-event_alf.io",
+        "github_url": "git@github.com:alfio-event/alf.io.git",
+        "commit": "f5e554e26e6b5dcbd16ce5abc38d9b016a8d64be"
+    },
+    {
+        "name": "alibaba_AGEIPort",
+        "github_url": "git@github.com:alibaba/AGEIPort.git",
+        "commit": "76f7acb3b4108a66d11abf907f3f4b3996c6016c"
+    },
+    {
+        "name": "alibaba_COLA",
+        "github_url": "git@github.com:alibaba/COLA.git",
+        "commit": "d948f204d58fe7bd30a3ac919308a1311b76fec5"
+    },
+    {
+        "name": "alibaba_QLExpress",
+        "github_url": "git@github.com:alibaba/QLExpress.git",
+        "commit": "6491f445753fb3b250a76f4b1a2700274aee2ac9"
+    },
+    {
+        "name": "alibaba_Sentinel",
+        "github_url": "git@github.com:alibaba/Sentinel.git",
+        "commit": "a08dc695ba1a09a0629dbfd3b5f60b617ea8c0f3"
+    },
+    {
+        "name": "alibaba_SmartEngine",
+        "github_url": "git@github.com:alibaba/SmartEngine.git",
+        "commit": "8acf58f9668c1efe503cb6cdee6e0fe5901ea391"
+    },
+    {
+        "name": "alibaba_asyncload",
+        "github_url": "git@github.com:alibaba/asyncload.git",
+        "commit": "9891e7086bff81ebdd4991435d21b549e48e874d"
+    },
+    {
+        "name": "alibaba_bytekit",
+        "github_url": "git@github.com:alibaba/bytekit.git",
+        "commit": "a6b884abe1e4a5398bb512549ec1ed627ff8a634"
+    },
+    {
+        "name": "alibaba_cobar",
+        "github_url": "git@github.com:alibaba/cobar.git",
+        "commit": "bc36a14d4a3f8acc0db0b3b07a7db8d38afefda5"
+    },
+    {
+        "name": "alibaba_cobarclient",
+        "github_url": "git@github.com:alibaba/cobarclient.git",
+        "commit": "46396017857e213c537b0fc88cae7e8ea3a798db"
+    },
+    {
+        "name": "alibaba_dubbo-spring-boot-starter",
+        "github_url": "git@github.com:alibaba/dubbo-spring-boot-starter.git",
+        "commit": "8751f5676f195f740b9b0a50e4634bafec3970e1"
+    },
+    {
+        "name": "alibaba_easyexcel",
+        "github_url": "git@github.com:alibaba/easyexcel.git",
+        "commit": "aae9c61ab603c04331333782eedd2896d7bc5386"
+    },
+    {
+        "name": "alibaba_jvm-sandbox-repeater",
+        "github_url": "git@github.com:alibaba/jvm-sandbox-repeater.git",
+        "commit": "0635a6a9aae9fdc20e0ec3f197aed5519b15fc1e"
+    },
+    {
+        "name": "alibaba_otter",
+        "github_url": "git@github.com:alibaba/otter.git",
+        "commit": "7544d0515e832b188736cc6d882d5a7da0558a55"
+    },
+    {
+        "name": "alibaba_sca-best-practice",
+        "github_url": "git@github.com:alibaba/sca-best-practice.git",
+        "commit": "0336939cf6fb265db5ae5dd5170ee86ecfe2b359"
+    },
+    {
+        "name": "alibaba_spring-cloud-alibaba",
+        "github_url": "git@github.com:alibaba/spring-cloud-alibaba.git",
+        "commit": "47f1d9bc0c15c98bb3dac17c5b5ab2f314d941ad"
+    },
+    {
+        "name": "alibaba_taokeeper",
+        "github_url": "git@github.com:alibaba/taokeeper.git",
+        "commit": "a8a0ccb147036830ac7463efd52c6fddb1d44794"
+    },
+    {
+        "name": "alibaba_yugong",
+        "github_url": "git@github.com:alibaba/yugong.git",
+        "commit": "94a5888688415510a20bd72d246cbf93eb1d43f0"
+    },
+    {
+        "name": "allegro_hermes",
+        "github_url": "git@github.com:allegro/hermes.git",
+        "commit": "947300439a2b8502fc71c06e4b122fc8af29edc1"
+    },
+    {
+        "name": "amazon-archives_realworld-serverless-application",
+        "github_url": "git@github.com:amazon-archives/realworld-serverless-application.git",
+        "commit": "effdb9643b778fa78280bfb5da9e6db371f5b09e"
+    },
+    {
+        "name": "amigoscode_microservices",
+        "github_url": "git@github.com:amigoscode/microservices.git",
+        "commit": "12dcd5d4758b806daf4dcccc1d6f95d939eee2a2"
+    },
+    {
+        "name": "amigoscode_spring-boot-security-course",
+        "github_url": "git@github.com:amigoscode/spring-boot-security-course.git",
+        "commit": "c4ab0d60d65aee0a91573beaa8098fba4b06d5d5"
+    },
+    {
+        "name": "amigoscode_spring-data-jpa-course",
+        "github_url": "git@github.com:amigoscode/spring-data-jpa-course.git",
+        "commit": "cbbcaf8e13f033aa05064169f0694a96f80b5454"
+    },
+    {
+        "name": "anji-plus_captcha",
+        "github_url": "git@github.com:anji-plus/captcha.git",
+        "commit": "9188ae31cad1b2041277f04351cde4bf78a01fc4"
+    },
+    {
+        "name": "apache_aurora",
+        "github_url": "git@github.com:apache/aurora.git",
+        "commit": "11ebaeeb071cb182c388a40755e84f60dda32260"
+    },
+    {
+        "name": "apache_cassandra-java-driver",
+        "github_url": "git@github.com:apache/cassandra-java-driver.git",
+        "commit": "f63108175fd22e2db893c57b0975bc518977ab4b"
+    },
+    {
+        "name": "apache_dolphinscheduler",
+        "github_url": "git@github.com:apache/dolphinscheduler.git",
+        "commit": "6422b24919e526b55567c68cf0b520f1aea07fd9"
+    },
+    {
+        "name": "apache_dubbo-admin",
+        "github_url": "git@github.com:apache/dubbo-admin.git",
+        "commit": "ca9fb03b8badb75577397bc9df8b916379eedadc"
+    },
+    {
+        "name": "apache_dubbo-spring-boot-project",
+        "github_url": "git@github.com:apache/dubbo-spring-boot-project.git",
+        "commit": "feb1783a182370e4bfacd903f4bd90f94ff1a550"
+    },
+    {
+        "name": "apache_eventmesh",
+        "github_url": "git@github.com:apache/eventmesh.git",
+        "commit": "74aee768de7c1a223d561c9f7f8e81557c429032"
+    },
+    {
+        "name": "apache_freemarker",
+        "github_url": "git@github.com:apache/freemarker.git",
+        "commit": "54667e0c7ee0d40d710799517330db2a81d8a5ed"
+    },
+    {
+        "name": "apache_guacamole-client",
+        "github_url": "git@github.com:apache/guacamole-client.git",
+        "commit": "a438b8f23e65f4c1ab8822b0e661a1ae022ba40c"
+    },
+    {
+        "name": "apache_hertzbeat",
+        "github_url": "git@github.com:apache/hertzbeat.git",
+        "commit": "3a378f871009ad56fcf24926a2b460bafa0f612a"
+    },
+    {
+        "name": "apache_incubator-kie-optaplanner",
+        "github_url": "git@github.com:apache/incubator-kie-optaplanner.git",
+        "commit": "446fc6abb09f419459a8fc2bbed0888cf293cddb"
+    },
+    {
+        "name": "apache_incubator-seata-samples",
+        "github_url": "git@github.com:apache/incubator-seata-samples.git",
+        "commit": "dcce531f5fec93c40305f4fa26246c52fc6d0d32"
+    },
+    {
+        "name": "apache_iotdb",
+        "github_url": "git@github.com:apache/iotdb.git",
+        "commit": "69cda2da662029b4f088ad5d7376d2f6902506a0"
+    },
+    {
+        "name": "apache_linkis",
+        "github_url": "git@github.com:apache/linkis.git",
+        "commit": "c13975fb39023a236b9633ae3e84b68b4ba55678"
+    },
+    {
+        "name": "apache_metron",
+        "github_url": "git@github.com:apache/metron.git",
+        "commit": "1252573eab087e87fb2938f8651c5b0b393aca9e"
+    },
+    {
+        "name": "apache_mina-sshd",
+        "github_url": "git@github.com:apache/mina-sshd.git",
+        "commit": "b4f2c4a44f249f3df6502a1694d4546ab6b5c336"
+    },
+    {
+        "name": "apache_openmeetings",
+        "github_url": "git@github.com:apache/openmeetings.git",
+        "commit": "f8487b231ac8933d5a0f1c554639166363d287b9"
+    },
+    {
+        "name": "apache_rocketmq-dashboard",
+        "github_url": "git@github.com:apache/rocketmq-dashboard.git",
+        "commit": "ce8306a602f6fa334495f9999084d01cc5284726"
+    },
+    {
+        "name": "apache_rocketmq-spring",
+        "github_url": "git@github.com:apache/rocketmq-spring.git",
+        "commit": "bb4bc5ce9d08ca0019198bff330e30a0deb7c6c3"
+    },
+    {
+        "name": "apache_samza",
+        "github_url": "git@github.com:apache/samza.git",
+        "commit": "82c53aaad53c69f99ef5130658d9f93093a1e477"
+    },
+    {
+        "name": "apache_servicecomb-pack",
+        "github_url": "git@github.com:apache/servicecomb-pack.git",
+        "commit": "427bf03485b8fb3c0cf6c2a12dde36d2c56af568"
+    },
+    {
+        "name": "apache_shardingsphere-elasticjob",
+        "github_url": "git@github.com:apache/shardingsphere-elasticjob.git",
+        "commit": "4d13c864b6d15063d3390578cb0ed843f52143a3"
+    },
+    {
+        "name": "apache_shardingsphere-example",
+        "github_url": "git@github.com:apache/shardingsphere-example.git",
+        "commit": "f87259b872448615cb425027c381493306af483f"
+    },
+    {
+        "name": "apache_storm",
+        "github_url": "git@github.com:apache/storm.git",
+        "commit": "3616316b99ecad6c06633822f3301e160a11eb62"
+    },
+    {
+        "name": "apache_submarine",
+        "github_url": "git@github.com:apache/submarine.git",
+        "commit": "7a1d551798c6785fc68fe028fc46f74c3ee6976d"
+    },
+    {
+        "name": "apache_zeppelin",
+        "github_url": "git@github.com:apache/zeppelin.git",
+        "commit": "bf62a2a25f460aaaa4794f82a0b52553187eeb7f"
+    },
+    {
+        "name": "apilayer_restcountries",
+        "github_url": "git@github.com:apilayer/restcountries.git",
+        "commit": "85c3a55d8c9692743d5e54f2a06fe01513ae09a0"
+    },
+    {
+        "name": "apolloconfig_apollo-use-cases",
+        "github_url": "git@github.com:apolloconfig/apollo-use-cases.git",
+        "commit": "a70077ffa52bec2335889fd4829fd4bf9650c4fa"
+    },
+    {
+        "name": "apolloconfig_apollo",
+        "github_url": "git@github.com:apolloconfig/apollo.git",
+        "commit": "3086b574881298a03a4faade8ab11b01ca863ef1"
+    },
+    {
+        "name": "apple_servicetalk",
+        "github_url": "git@github.com:apple/servicetalk.git",
+        "commit": "0c6dbe444089d7d7c93c940e94d3c7af1bec40db"
+    },
+    {
+        "name": "asciidocfx_AsciidocFX",
+        "github_url": "git@github.com:asciidocfx/AsciidocFX.git",
+        "commit": "9c6e6e587b8f38df724d7050044279d20db94bac"
+    },
+    {
+        "name": "aws-samples_kubernetes-for-java-developers",
+        "github_url": "git@github.com:aws-samples/kubernetes-for-java-developers.git",
+        "commit": "821112a60f639a933e783e16900ecded36ecf8f2"
+    },
+    {
+        "name": "aws_serverless-java-container",
+        "github_url": "git@github.com:aws/serverless-java-container.git",
+        "commit": "4696691989cfcd5d8957dbdfc280018aa267c8ba"
+    },
+    {
+        "name": "awslabs_aws-saas-boost",
+        "github_url": "git@github.com:awslabs/aws-saas-boost.git",
+        "commit": "452d7ca8902e7338e999290eebad9062c342915f"
+    },
+    {
+        "name": "awspring_spring-cloud-aws",
+        "github_url": "git@github.com:awspring/spring-cloud-aws.git",
+        "commit": "2151d3bc4af2974c87891c07d418d000d19e4674"
+    },
+    {
+        "name": "axelor_axelor-open-suite",
+        "github_url": "git@github.com:axelor/axelor-open-suite.git",
+        "commit": "ea4d53a282f0f088d1485437e1e512195ed49f22"
+    },
+    {
+        "name": "baidu_Jprotobuf-rpc-socket",
+        "github_url": "git@github.com:baidu/Jprotobuf-rpc-socket.git",
+        "commit": "88bb62d511a7288087fe042855bb708247758e93"
+    },
+    {
+        "name": "baidu_starlight",
+        "github_url": "git@github.com:baidu/starlight.git",
+        "commit": "9a01fd39e1f9920bc5a15acaf9676c1e2422f302"
+    },
+    {
+        "name": "baidu_uid-generator",
+        "github_url": "git@github.com:baidu/uid-generator.git",
+        "commit": "2fcbc13d2016fcfb7648a18296951f6942215255"
+    },
+    {
+        "name": "baomidou_dynamic-datasource",
+        "github_url": "git@github.com:baomidou/dynamic-datasource.git",
+        "commit": "ec530d7a0d430adf86f348cad46dd24e20972b71"
+    },
+    {
+        "name": "baomidou_mybatis-plus-samples",
+        "github_url": "git@github.com:baomidou/mybatis-plus-samples.git",
+        "commit": "54b00c60f6131d80bef53b9c7ac77633c2a6d6c8"
+    },
+    {
+        "name": "baomidou_mybatis-plus",
+        "github_url": "git@github.com:baomidou/mybatis-plus.git",
+        "commit": "eb3e576e1f75d992cd0ef70b723b993ba2899a30"
+    },
+    {
+        "name": "battcn_spring-boot2-learning",
+        "github_url": "git@github.com:battcn/spring-boot2-learning.git",
+        "commit": "0b5eb45dc93efc9bd532b94fc8400a3aa15dc5d2"
+    },
+    {
+        "name": "bbossgroups_bboss-elasticsearch",
+        "github_url": "git@github.com:bbossgroups/bboss-elasticsearch.git",
+        "commit": "624b47694e479487c6bf67987cbb65777ed46b53"
+    },
+    {
+        "name": "blossom-editor_blossom",
+        "github_url": "git@github.com:blossom-editor/blossom.git",
+        "commit": "3fa00e11f022d9fb5b0f1609b8ca5efbf7a769ba"
+    },
+    {
+        "name": "blox_blox",
+        "github_url": "git@github.com:blox/blox.git",
+        "commit": "25c9adc01e3b30d69bebceb1f3a9f0748d6ff068"
+    },
+    {
+        "name": "cBioPortal_cbioportal",
+        "github_url": "git@github.com:cBioPortal/cbioportal.git",
+        "commit": "d85c3346bfd8c859d8855b28781d7d749849320e"
+    },
+    {
+        "name": "camunda_camunda-bpm-examples",
+        "github_url": "git@github.com:camunda/camunda-bpm-examples.git",
+        "commit": "62888ddf2b2fc9841aac668f01fe90d5a965d223"
+    },
+    {
+        "name": "cargotracker",
+        "github_url": "git@github.ibm.com:AsterLLM/cargotracker.git",
+        "commit": "65f4b2f65eae00403cd9f73684f5fbc842b1ab8e"
+    },
+    {
+        "name": "cassandre-tech_cassandre-trading-bot",
+        "github_url": "git@github.com:cassandre-tech/cassandre-trading-bot.git",
+        "commit": "691d086da36f1a9d422fa5a080bdf9064350b75e"
+    },
+    {
+        "name": "census-instrumentation_opencensus-java",
+        "github_url": "git@github.com:census-instrumentation/opencensus-java.git",
+        "commit": "baa68680b19040ff7739e314a2422a25cf41e27a"
+    },
+    {
+        "name": "cloudfoundry_uaa",
+        "github_url": "git@github.com:cloudfoundry/uaa.git",
+        "commit": "501dca3ed96c939b19c8a38c16683bea57fdb67b"
+    },
+    {
+        "name": "codecentric_spring-boot-admin",
+        "github_url": "git@github.com:codecentric/spring-boot-admin.git",
+        "commit": "1edb8f4aaf7f74058c9a66b734e398768c3ef9e6"
+    },
+    {
+        "name": "codingapi_tx-lcn",
+        "github_url": "git@github.com:codingapi/tx-lcn.git",
+        "commit": "f8ce807b8a820cfb4e8290eec132fa4e3e8da3fd"
+    },
+    {
+        "name": "cometd_cometd",
+        "github_url": "git@github.com:cometd/cometd.git",
+        "commit": "cce09b2376e4612684792cea6d6a3d6d1926c3f1"
+    },
+    {
+        "name": "confluentinc_examples",
+        "github_url": "git@github.com:confluentinc/examples.git",
+        "commit": "0e24db9389fe0f32bad49c7a2891802e4b614870"
+    },
+    {
+        "name": "continew-org_continew-admin",
+        "github_url": "git@github.com:continew-org/continew-admin.git",
+        "commit": "68a1227945170e1a662ead9f6d3597163a52e41a"
+    },
+    {
+        "name": "crmeb_crmeb_java",
+        "github_url": "git@github.com:crmeb/crmeb_java.git",
+        "commit": "a35ef20fc97ed7e0427ae7f7159a85f1e1030a14"
+    },
+    {
+        "name": "ctripcorp_x-pipe",
+        "github_url": "git@github.com:ctripcorp/x-pipe.git",
+        "commit": "83d853e41d8b6054e6ff9b94aeec772f1c909e11"
+    },
+    {
+        "name": "dataease_dataease",
+        "github_url": "git@github.com:dataease/dataease.git",
+        "commit": "7642b51800099dcb82151046a52358a79bf3e3f5"
+    },
+    {
+        "name": "datavane_datasophon",
+        "github_url": "git@github.com:datavane/datasophon.git",
+        "commit": "1ebc8e292047c0c443916b5f124148d472719f56"
+    },
+    {
+        "name": "datavane_datavines",
+        "github_url": "git@github.com:datavane/datavines.git",
+        "commit": "2f795dd6caaab4693507ffeb8994e86ab1a588c2"
+    },
+    {
+        "name": "ddd-by-examples_all-things-cqrs",
+        "github_url": "git@github.com:ddd-by-examples/all-things-cqrs.git",
+        "commit": "44186822cd4caec287c3d3f81b353b3911e328e9"
+    },
+    {
+        "name": "ddd-by-examples_factory",
+        "github_url": "git@github.com:ddd-by-examples/factory.git",
+        "commit": "95c751ccefb879e02ecc959c712caa31f4cd9bcf"
+    },
+    {
+        "name": "ddd-by-examples_library",
+        "github_url": "git@github.com:ddd-by-examples/library.git",
+        "commit": "98d7004b5aef366ba5d661ae0cb544af1cfd33f1"
+    },
+    {
+        "name": "debezium_debezium",
+        "github_url": "git@github.com:debezium/debezium.git",
+        "commit": "006ba1aa0d6f5ffcca847185f83409281ba83b43"
+    },
+    {
+        "name": "decentralized-identity_universal-resolver",
+        "github_url": "git@github.com:decentralized-identity/universal-resolver.git",
+        "commit": "9aedc415dfb90e2c9a5a805fdbc1705db4b0d333"
+    },
+    {
+        "name": "deliveredtechnologies_rulebook",
+        "github_url": "git@github.com:deliveredtechnologies/rulebook.git",
+        "commit": "df3102afb9f65b85b8f74d71bcb893246a2b31b0"
+    },
+    {
+        "name": "desktopqa_Cynthia",
+        "github_url": "git@github.com:desktopqa/Cynthia.git",
+        "commit": "58466c169908c1bfebe63f3d8e8bba4f7b577672"
+    },
+    {
+        "name": "didi_KnowStreaming",
+        "github_url": "git@github.com:didi/KnowStreaming.git",
+        "commit": "41b5f350f5da34ede618512be3354653e8781ddf"
+    },
+    {
+        "name": "didi_super-jacoco",
+        "github_url": "git@github.com:didi/super-jacoco.git",
+        "commit": "6790858fac5138926bfca9ba4e88754b0741781d"
+    },
+    {
+        "name": "didi_tinyid",
+        "github_url": "git@github.com:didi/tinyid.git",
+        "commit": "49976d37222ab1089a8c413b4520cc55d105d428"
+    },
+    {
+        "name": "didi_turbo",
+        "github_url": "git@github.com:didi/turbo.git",
+        "commit": "72aae37eef04dec6977a40571924d80b43a037f3"
+    },
+    {
+        "name": "digitalfondue_lavagna",
+        "github_url": "git@github.com:digitalfondue/lavagna.git",
+        "commit": "b76487305e5191bc32b0422244d7b648ffcb8530"
+    },
+    {
+        "name": "digitalinnovationone_santander-dev-week-2023-api",
+        "github_url": "git@github.com:digitalinnovationone/santander-dev-week-2023-api.git",
+        "commit": "665804c8231b32923b03b30ab832ccee33cf2cc3"
+    },
+    {
+        "name": "dockersamples_atsea-sample-shop-app",
+        "github_url": "git@github.com:dockersamples/atsea-sample-shop-app.git",
+        "commit": "fb55ebd6e886d1301b995b0b480902b0259ba60d"
+    },
+    {
+        "name": "doublechaintech_scm-biz-suite",
+        "github_url": "git@github.com:doublechaintech/scm-biz-suite.git",
+        "commit": "82cc55dea9660beb478879040ebd31f32fd33109"
+    },
+    {
+        "name": "dromara_SMS4J",
+        "github_url": "git@github.com:dromara/SMS4J.git",
+        "commit": "bc5af3a68a193ccb355e131348e2030f08f0af3f"
+    },
+    {
+        "name": "dromara_cubic",
+        "github_url": "git@github.com:dromara/cubic.git",
+        "commit": "a39234c88298782ce44a41d9fe0244a1648aa8d7"
+    },
+    {
+        "name": "dromara_dante-cloud",
+        "github_url": "git@github.com:dromara/dante-cloud.git",
+        "commit": "5046aaa85222ec66176e5164b6da5988fe216f61"
+    },
+    {
+        "name": "dromara_easy-es",
+        "github_url": "git@github.com:dromara/easy-es.git",
+        "commit": "6bff840719619e619bbc8444acdb798bbf54c086"
+    },
+    {
+        "name": "dromara_forest",
+        "github_url": "git@github.com:dromara/forest.git",
+        "commit": "52d68e974c54229ea2ce5daf9392aaa3b621938f"
+    },
+    {
+        "name": "dromara_gobrs-async",
+        "github_url": "git@github.com:dromara/gobrs-async.git",
+        "commit": "d3c60395faa6e14ba15724ed563889827433f830"
+    },
+    {
+        "name": "dromara_hmily",
+        "github_url": "git@github.com:dromara/hmily.git",
+        "commit": "52dc6ba3a44f9ade8d49bcc6ad49485ef9879c49"
+    },
+    {
+        "name": "dromara_liteflow",
+        "github_url": "git@github.com:dromara/liteflow.git",
+        "commit": "b49e5716b536b341e3249201281caab4c7fd9ff0"
+    },
+    {
+        "name": "dromara_myth",
+        "github_url": "git@github.com:dromara/myth.git",
+        "commit": "02b1b86abba1fed4a0a536a8a955d6e1be02b74c"
+    },
+    {
+        "name": "dromara_orion-visor",
+        "github_url": "git@github.com:dromara/orion-visor.git",
+        "commit": "d8818c3ec24cc5996f71d45fd4c75f3e9b9d7482"
+    },
+    {
+        "name": "dromara_raincat",
+        "github_url": "git@github.com:dromara/raincat.git",
+        "commit": "9336dd0a0f04a22eebfbaf29db6cd5b0ddcc3ab0"
+    },
+    {
+        "name": "dromara_x-file-storage",
+        "github_url": "git@github.com:dromara/x-file-storage.git",
+        "commit": "f7baa6e933398185096a5bff5e427593247b19d7"
+    },
+    {
+        "name": "dtinit_data-transfer-project",
+        "github_url": "git@github.com:dtinit/data-transfer-project.git",
+        "commit": "7702b53e5096fac87939b0ead1db786ec18a0676"
+    },
+    {
+        "name": "e-commerce-sample_ecommerce-order-service",
+        "github_url": "git@github.com:e-commerce-sample/ecommerce-order-service.git",
+        "commit": "6aeacac2e769421252863361f5f22c92f2c236bb"
+    },
+    {
+        "name": "eBay_parallec",
+        "github_url": "git@github.com:eBay/parallec.git",
+        "commit": "1b4f1628f34fedfb06b24c33a5372d64d3df0952"
+    },
+    {
+        "name": "eclipse-jifa_jifa",
+        "github_url": "git@github.com:eclipse-jifa/jifa.git",
+        "commit": "09c11993fd95ea45d4bd714a5c46525fff91d79d"
+    },
+    {
+        "name": "eclipse_openvsx",
+        "github_url": "git@github.com:eclipse/openvsx.git",
+        "commit": "de4c295793eaf5a9237b0836fd8ee60277a1593a"
+    },
+    {
+        "name": "elasticsearch",
+        "github_url": "git@github.com:elastic/elasticsearch.git",
+        "commit": "ec0efafc2fdc49adffe4f58806ea71d28b7d9f49"
+    },
+    {
+        "name": "espertechinc_esper",
+        "github_url": "git@github.com:espertechinc/esper.git",
+        "commit": "9e1b9f1cc9117fea4bf33ab043762c045d73839c"
+    },
+    {
+        "name": "ethereum_ethereumj",
+        "github_url": "git@github.com:ethereum/ethereumj.git",
+        "commit": "200882753ee7c1a516d72b22cc5073055aa0c978"
+    },
+    {
+        "name": "eventuate-local_eventuate-local",
+        "github_url": "git@github.com:eventuate-local/eventuate-local.git",
+        "commit": "8075150bf272a99d5410abb7911050d64d94f25b"
+    },
+    {
+        "name": "eventuate-tram_eventuate-tram-core",
+        "github_url": "git@github.com:eventuate-tram/eventuate-tram-core.git",
+        "commit": "9baf8bd06f928861e185eb42192924612bccae56"
+    },
+    {
+        "name": "eventuate-tram_eventuate-tram-sagas-examples-customers-and-orders",
+        "github_url": "git@github.com:eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders.git",
+        "commit": "ffe523909be3f46049d2feadf28d7c257da68e96"
+    },
+    {
+        "name": "eventuate-tram_eventuate-tram-sagas",
+        "github_url": "git@github.com:eventuate-tram/eventuate-tram-sagas.git",
+        "commit": "c2968c6d92de394b9dbe48b5309bebdb2c3144a5"
+    },
+    {
+        "name": "exadel-inc_CompreFace",
+        "github_url": "git@github.com:exadel-inc/CompreFace.git",
+        "commit": "ddf32da8245e2e6688c3ab6f60587fd3e31538c2"
+    },
+    {
+        "name": "fast-excel_fastexcel",
+        "github_url": "git@github.com:fast-excel/fastexcel.git",
+        "commit": "c57aa2ea9e710b1a1ef016ee40020c9f821d2f24"
+    },
+    {
+        "name": "ff4j_ff4j",
+        "github_url": "git@github.com:ff4j/ff4j.git",
+        "commit": "1b00c71919f91f0ac1a80d8e0259352ff03ea829"
+    },
+    {
+        "name": "firebase_firebase-admin-java",
+        "github_url": "git@github.com:firebase/firebase-admin-java.git",
+        "commit": "800298c46df2d77eaa089e0cfcfcf48c1b3b19fa"
+    },
+    {
+        "name": "fizzgate_fizz-gateway-node",
+        "github_url": "git@github.com:fizzgate/fizz-gateway-node.git",
+        "commit": "80e27f4ad4f016ea8c747054a84e533bfa64cb29"
+    },
+    {
+        "name": "flowable-engine",
+        "github_url": "git@github.com:flowable/flowable-engine.git",
+        "commit": "afe744b572e3a7efeb1b56083b66e2c0dd1e412e"
+    },
+    {
+        "name": "freechat-fun_freechat",
+        "github_url": "git@github.com:freechat-fun/freechat.git",
+        "commit": "1ad21ca884d09893066c3623592f0ce525d19f40"
+    },
+    {
+        "name": "gaia-app_gaia",
+        "github_url": "git@github.com:gaia-app/gaia.git",
+        "commit": "81dfd8fbee3084ff5dec6a95d3405c9ab4ee92a7"
+    },
+    {
+        "name": "gchq_Gaffer",
+        "github_url": "git@github.com:gchq/Gaffer.git",
+        "commit": "64acf5f304e8d8ae9e96e3fcaff8f5e011099a50"
+    },
+    {
+        "name": "geekidea_spring-boot-plus",
+        "github_url": "git@github.com:geekidea/spring-boot-plus.git",
+        "commit": "23b0271406470a2abb59411289bb72fb7b430d88"
+    },
+    {
+        "name": "getmoneynote_moneynote-api",
+        "github_url": "git@github.com:getmoneynote/moneynote-api.git",
+        "commit": "ed632375e0aad5ebb51b2bca2cd479ff4b2dd15b"
+    },
+    {
+        "name": "glyptodon_guacamole-client",
+        "github_url": "git@github.com:glyptodon/guacamole-client.git",
+        "commit": "05fa9dc4ab63a3b33e1b4247cd3f6b28eab0cf74"
+    },
+    {
+        "name": "google_guice",
+        "github_url": "git@github.com:google/guice.git",
+        "commit": "c6839995f3b9585c28d47ef828c4c7264eb5e4a3"
+    },
+    {
+        "name": "googleads_googleads-mobile-android-examples",
+        "github_url": "git@github.com:googleads/googleads-mobile-android-examples.git",
+        "commit": "32cc156f128af6d7dc647d00020dc4fc1cbf7852"
+    },
+    {
+        "name": "gothinkster_spring-boot-realworld-example-app",
+        "github_url": "git@github.com:gothinkster/spring-boot-realworld-example-app.git",
+        "commit": "ee17e31aafe733d98c4853c8b9a74d7f2f6c924a"
+    },
+    {
+        "name": "graphhopper_map-matching",
+        "github_url": "git@github.com:graphhopper/map-matching.git",
+        "commit": "be5a176ec78ee7cca6730f93e4ea57ced65eb788"
+    },
+    {
+        "name": "greenmail-mail-test_greenmail",
+        "github_url": "git@github.com:greenmail-mail-test/greenmail.git",
+        "commit": "ffe96e61f2208f22b20b2fd7dd1584f702f2f6a0"
+    },
+    {
+        "name": "grpc-ecosystem_grpc-spring",
+        "github_url": "git@github.com:grpc-ecosystem/grpc-spring.git",
+        "commit": "b83afe68cef63edc7dfeec694bc279956bbc8c3d"
+    },
+    {
+        "name": "hazelcast_hazelcast-jet",
+        "github_url": "git@github.com:hazelcast/hazelcast-jet.git",
+        "commit": "60c713a718df89fdccedbf34aadcdcb953ae92a6"
+    },
+    {
+        "name": "hellokoding_hellokoding-courses",
+        "github_url": "git@github.com:hellokoding/hellokoding-courses.git",
+        "commit": "261d52924c69a6a63a88ee3c1be1bf32a7615ce2"
+    },
+    {
+        "name": "hibernate_hibernate-validator",
+        "github_url": "git@github.com:hibernate/hibernate-validator.git",
+        "commit": "83845bfc17a1f4d6ac05143429332df90d20a194"
+    },
+    {
+        "name": "hs-web_hsweb-framework",
+        "github_url": "git@github.com:hs-web/hsweb-framework.git",
+        "commit": "c754b7d68c8ac95c59221823f5f8e182af2fa871"
+    },
+    {
+        "name": "hub4j_github-api",
+        "github_url": "git@github.com:hub4j/github-api.git",
+        "commit": "88fc4cc4a7b4263429d5b2d557adbbad9ebf3d01"
+    },
+    {
+        "name": "hyperledger_besu",
+        "github_url": "git@github.com:hyperledger/besu.git",
+        "commit": "1fd8eaca86ae9f9db13ad78e7415f4cb5a689c63"
+    },
+    {
+        "name": "intel-cloud_cosbench",
+        "github_url": "git@github.com:intel-cloud/cosbench.git",
+        "commit": "68ffaa90e170f87a70c09b5ae187b640eb040264"
+    },
+    {
+        "name": "intuit_wasabi",
+        "github_url": "git@github.com:intuit/wasabi.git",
+        "commit": "eaac73406a80ca75fb9423bdf3faada67f955083"
+    },
+    {
+        "name": "iotaledger-archive_iri",
+        "github_url": "git@github.com:iotaledger-archive/iri.git",
+        "commit": "a7a23569a97a30b1bd628bbec426f61a7e21dac7"
+    },
+    {
+        "name": "iqq-team_iqq",
+        "github_url": "git@github.com:iqq-team/iqq.git",
+        "commit": "e3a93b0447c661c29252eb1df6870eba2774686c"
+    },
+    {
+        "name": "itmuch_spring-cloud-docker-microservice-book-code",
+        "github_url": "git@github.com:itmuch/spring-cloud-docker-microservice-book-code.git",
+        "commit": "d198abc5fbd6f59eba6e6bb486f42c5e2d34865f"
+    },
+    {
+        "name": "j-easy_easy-batch",
+        "github_url": "git@github.com:j-easy/easy-batch.git",
+        "commit": "647ce811fc1ada476ceef4f48a2f8523367a4892"
+    },
+    {
+        "name": "j-easy_easy-rules",
+        "github_url": "git@github.com:j-easy/easy-rules.git",
+        "commit": "d4450831533e47a5c0cb361edb80dad43db228a4"
+    },
+    {
+        "name": "jMetal_jMetal",
+        "github_url": "git@github.com:jMetal/jMetal.git",
+        "commit": "212844146b3b41dfb3f4910010dd2fb3ff057cd1"
+    },
+    {
+        "name": "jOOQ_jOOQ",
+        "github_url": "git@github.com:jOOQ/jOOQ.git",
+        "commit": "969e4a9c0d76ace60752b196181272bea4ad1814"
+    },
+    {
+        "name": "jaeksoft_opensearchserver",
+        "github_url": "git@github.com:jaeksoft/opensearchserver.git",
+        "commit": "a83a7b872c2085bde45cb2d5d13eccd318396ad2"
+    },
+    {
+        "name": "jar-analyzer_jar-analyzer-v1-gui",
+        "github_url": "git@github.com:jar-analyzer/jar-analyzer-v1-gui.git",
+        "commit": "96b11d16dd7e098902996051964543e3b73a9426"
+    },
+    {
+        "name": "java110_MicroCommunity",
+        "github_url": "git@github.com:java110/MicroCommunity.git",
+        "commit": "45102fc13900aad6d117b00a4feeeafe9c3f5fee"
+    },
+    {
+        "name": "javaee-samples_javaee7-samples",
+        "github_url": "git@github.com:javaee-samples/javaee7-samples.git",
+        "commit": "4a67b232d71bc2b3b6d418e955218fa71741b943"
+    },
+    {
+        "name": "jdbc-observations_datasource-proxy",
+        "github_url": "git@github.com:jdbc-observations/datasource-proxy.git",
+        "commit": "30823542b1ccb06a1aa43f3641c07bb5d030e6c5"
+    },
+    {
+        "name": "jeecgboot_jeewx-boot",
+        "github_url": "git@github.com:jeecgboot/jeewx-boot.git",
+        "commit": "641ab52c3e1845fec39996d7794c33fb40dad1dd"
+    },
+    {
+        "name": "jeecgboot_jimureport",
+        "github_url": "git@github.com:jeecgboot/jimureport.git",
+        "commit": "33a622d43fb31925ab995b81bab46f6da6fbaf6b"
+    },
+    {
+        "name": "jenkinsci_gitlab-plugin",
+        "github_url": "git@github.com:jenkinsci/gitlab-plugin.git",
+        "commit": "f0a8d2dbeffea34664c5422523ee6ca0ef0940af"
+    },
+    {
+        "name": "jfaster_mango",
+        "github_url": "git@github.com:jfaster/mango.git",
+        "commit": "c5bad3c4f337ac6580023d705ccfdeef5fd7f149"
+    },
+    {
+        "name": "jhipster_jhipster-lite",
+        "github_url": "git@github.com:jhipster/jhipster-lite.git",
+        "commit": "88cba4a609adc47b47aeec914e7ec4723768d854"
+    },
+    {
+        "name": "jodconverter_jodconverter",
+        "github_url": "git@github.com:jodconverter/jodconverter.git",
+        "commit": "da04e7186c02656bdfd0b3c271bcefac1e5d5875"
+    },
+    {
+        "name": "jolokia_jolokia",
+        "github_url": "git@github.com:jolokia/jolokia.git",
+        "commit": "3351eddfbb83937245bade0f38ef4f724cecc221"
+    },
+    {
+        "name": "kafbat_kafka-ui",
+        "github_url": "git@github.com:kafbat/kafka-ui.git",
+        "commit": "3a7b70f2845ce11ba5f6d12a3f44f61625c611c6"
+    },
+    {
+        "name": "kairosdb_kairosdb",
+        "github_url": "git@github.com:kairosdb/kairosdb.git",
+        "commit": "625823086043a626a096337770ef57fa10c682c9"
+    },
+    {
+        "name": "kekingcn_kkFileView",
+        "github_url": "git@github.com:kekingcn/kkFileView.git",
+        "commit": "9f3b45a4c74e501695bffd851b60e920980fd4a8"
+    },
+    {
+        "name": "kekingcn_spring-boot-klock-starter",
+        "github_url": "git@github.com:kekingcn/spring-boot-klock-starter.git",
+        "commit": "8700bc0f1512e501845c30127cdcb4c66c6aceea"
+    },
+    {
+        "name": "keycloak_keycloak-quickstarts",
+        "github_url": "git@github.com:keycloak/keycloak-quickstarts.git",
+        "commit": "0a6e06047c32d6e86af7bf829c36aba22241fcaf"
+    },
+    {
+        "name": "killbill_killbill",
+        "github_url": "git@github.com:killbill/killbill.git",
+        "commit": "f2ba7eb98a4427c72bd8749fc203c5ea181cc582"
+    },
+    {
+        "name": "la-team_light-admin",
+        "github_url": "git@github.com:la-team/light-admin.git",
+        "commit": "2d8875f3dcfb0ed10fcabd92be50d36032f28bf3"
+    },
+    {
+        "name": "lets-mica_mica",
+        "github_url": "git@github.com:lets-mica/mica.git",
+        "commit": "e0cbf41c97b0d5333d3334a6c13953e52b585fc1"
+    },
+    {
+        "name": "line_centraldogma",
+        "github_url": "git@github.com:line/centraldogma.git",
+        "commit": "06b91cc10c49fce4005f007484a4201a37ca5a9a"
+    },
+    {
+        "name": "line_line-bot-sdk-java",
+        "github_url": "git@github.com:line/line-bot-sdk-java.git",
+        "commit": "f004776848e60ec0aa908bfc0b3faef6c49890b1"
+    },
+    {
+        "name": "line_line-fido2-server",
+        "github_url": "git@github.com:line/line-fido2-server.git",
+        "commit": "34cc4cf5baeb1a671301cab0ff6b5a8098acdd79"
+    },
+    {
+        "name": "locationtech_geowave",
+        "github_url": "git@github.com:locationtech/geowave.git",
+        "commit": "998f3e4af31a295513f52c2a2b3818d48024e243"
+    },
+    {
+        "name": "ls1intum_Artemis",
+        "github_url": "git@github.com:ls1intum/Artemis.git",
+        "commit": "486232d70e259abfac7c149c59eb1c8340cbee5f"
+    },
+    {
+        "name": "mapstruct_mapstruct",
+        "github_url": "git@github.com:mapstruct/mapstruct.git",
+        "commit": "4e1720c2a899252de448c38eb10942f9fbbf5276"
+    },
+    {
+        "name": "metersphere_metersphere",
+        "github_url": "git@github.com:metersphere/metersphere.git",
+        "commit": "c97736665c41732444e22fed896fb188580dfc97"
+    },
+    {
+        "name": "microcks_microcks",
+        "github_url": "git@github.com:microcks/microcks.git",
+        "commit": "5e0b326485423b7b9f272353675443d12d5f7439"
+    },
+    {
+        "name": "microsoft_HydraLab",
+        "github_url": "git@github.com:microsoft/HydraLab.git",
+        "commit": "2c9444cf1c9043a17696dd9b411af33ccee57bd6"
+    },
+    {
+        "name": "microsoft_mcp-for-beginners",
+        "github_url": "git@github.com:microsoft/mcp-for-beginners.git",
+        "commit": "122b47af3165ba11fd4991792d1bd23b3de05669"
+    },
+    {
+        "name": "minbox-projects_api-boot",
+        "github_url": "git@github.com:minbox-projects/api-boot.git",
+        "commit": "1376ffbf325f300bf1298dfe7c4a71557d0dda10"
+    },
+    {
+        "name": "mitreid-connect_OpenID-Connect-Java-Spring-Server",
+        "github_url": "git@github.com:mitreid-connect/OpenID-Connect-Java-Spring-Server.git",
+        "commit": "d074573de0c8b8e339add89a17a2bd000a1c6378"
+    },
+    {
+        "name": "mock-server_mockserver",
+        "github_url": "git@github.com:mock-server/mockserver.git",
+        "commit": "b607ad690543b17a6f6d6ecd92292ca3f28afe0d"
+    },
+    {
+        "name": "modelcontextprotocol_java-sdk",
+        "github_url": "git@github.com:modelcontextprotocol/java-sdk.git",
+        "commit": "6e9af40bcbb2b5ee12748f7c5f20b0a7d479c5f8"
+    },
+    {
+        "name": "modelmapper_modelmapper",
+        "github_url": "git@github.com:modelmapper/modelmapper.git",
+        "commit": "b4d7c93d263c83bc740a6172b159cc02f9597eea"
+    },
+    {
+        "name": "mybatis-book_book",
+        "github_url": "git@github.com:mybatis-book/book.git",
+        "commit": "4976b388359d04b98c0129035f137d7193c204bf"
+    },
+    {
+        "name": "mybatis-flex_mybatis-flex",
+        "github_url": "git@github.com:mybatis-flex/mybatis-flex.git",
+        "commit": "70a97bb0ebd92a90f7c003003341a84bac84776c"
+    },
+    {
+        "name": "mybatis_jpetstore-6",
+        "github_url": "git@github.com:mybatis/jpetstore-6.git",
+        "commit": "23d852a12ddc17667ebda586d9f9911f899328a5"
+    },
+    {
+        "name": "mybatis_spring",
+        "github_url": "git@github.com:mybatis/spring.git",
+        "commit": "db30777c68e0ca240ff16d4c5b06a14a3c477d06"
+    },
+    {
+        "name": "nacos-group_nacos-spring-boot-project",
+        "github_url": "git@github.com:nacos-group/nacos-spring-boot-project.git",
+        "commit": "08657b90b346a7b3a89f0ae75945542d805def53"
+    },
+    {
+        "name": "nacos-group_nacos-spring-project",
+        "github_url": "git@github.com:nacos-group/nacos-spring-project.git",
+        "commit": "ce41f4d40788cb6f0ca98e24b944486ad43d016a"
+    },
+    {
+        "name": "nageoffer_12306",
+        "github_url": "git@github.com:nageoffer/12306.git",
+        "commit": "c8d1e9e9a26614227c237d2355cd8e711f8af414"
+    },
+    {
+        "name": "nageoffer_congomall",
+        "github_url": "git@github.com:nageoffer/congomall.git",
+        "commit": "c9d4d86c9ee5b49f48745604bf2801eabec1ecec"
+    },
+    {
+        "name": "nageoffer_shortlink",
+        "github_url": "git@github.com:nageoffer/shortlink.git",
+        "commit": "a68c1555ff40af972e167ae1e0a097a73a963b35"
+    },
+    {
+        "name": "neo4j-examples_movies-java-spring-data-neo4j",
+        "github_url": "git@github.com:neo4j-examples/movies-java-spring-data-neo4j.git",
+        "commit": "7d82a76321bdeb79bcb5b74b2d358dc4e6ee991d"
+    },
+    {
+        "name": "netease-im_camellia",
+        "github_url": "git@github.com:netease-im/camellia.git",
+        "commit": "d72de3983987d71947f24250174f633db92ca43c"
+    },
+    {
+        "name": "netgloo_spring-boot-samples",
+        "github_url": "git@github.com:netgloo/spring-boot-samples.git",
+        "commit": "065c82a9f7702de1c751f7980672c2eb0e6c33c1"
+    },
+    {
+        "name": "newbee-ltd_newbee-mall-api",
+        "github_url": "git@github.com:newbee-ltd/newbee-mall-api.git",
+        "commit": "0879d5a1fac0c2a42c99eaf70d8b2f6e92aa05a4"
+    },
+    {
+        "name": "newbee-ltd_newbee-mall-plus",
+        "github_url": "git@github.com:newbee-ltd/newbee-mall-plus.git",
+        "commit": "a8c057d6145cf8c6f0dbc2dc05af8e1414f0bf2c"
+    },
+    {
+        "name": "newbee-ltd_newbee-mall",
+        "github_url": "git@github.com:newbee-ltd/newbee-mall.git",
+        "commit": "a069069b07027613bf0e7f571736be86f431faee"
+    },
+    {
+        "name": "ngbdf_redis-manager",
+        "github_url": "git@github.com:ngbdf/redis-manager.git",
+        "commit": "9dccdce7f2c91887aa659a5aab5aaacf4b92fb9b"
+    },
+    {
+        "name": "obsidiandynamics_kafdrop",
+        "github_url": "git@github.com:obsidiandynamics/kafdrop.git",
+        "commit": "2ad9f8034e6cdd933d035e6c9bedec52c00e74bf"
+    },
+    {
+        "name": "oceanbase_odc",
+        "github_url": "git@github.com:oceanbase/odc.git",
+        "commit": "d517c0f27971642fb0cd7565fd61ab2309875ec3"
+    },
+    {
+        "name": "odpi_egeria",
+        "github_url": "git@github.com:odpi/egeria.git",
+        "commit": "3907f9d6edec417fde66dedb219a4743d77100af"
+    },
+    {
+        "name": "ofbiz-framework",
+        "github_url": "git@github.com:aster-test-generation/ofbiz-framework.git",
+        "commit": "035cd505ab69a06837f207a552d5df1693f7e72c"
+    },
+    {
+        "name": "ohsome-api",
+        "github_url": "git@github.com:GIScience/ohsome-api.git",
+        "commit": "6b7671d589b8ebbff1b6d7ab0f8bb630d9a25d57"
+    },
+    {
+        "name": "oktadev_java-microservices-examples",
+        "github_url": "git@github.com:oktadev/java-microservices-examples.git",
+        "commit": "d971f6615125e85d0ffddee6574630d8173397ca"
+    },
+    {
+        "name": "olacabs_jackhammer",
+        "github_url": "git@github.com:olacabs/jackhammer.git",
+        "commit": "fe77928c7064fd8fb25655e1946a7965b41b7ecf"
+    },
+    {
+        "name": "open-job_openjob",
+        "github_url": "git@github.com:open-job/openjob.git",
+        "commit": "f6516c6013d5d2b9f9bfc82c17e8bdc239ac9248"
+    },
+    {
+        "name": "open-scratch_teaching-open",
+        "github_url": "git@github.com:open-scratch/teaching-open.git",
+        "commit": "89840bac2bc5251f5d618ab5ecdcf2d5d34bebcc"
+    },
+    {
+        "name": "opendatadiscovery_odd-platform",
+        "github_url": "git@github.com:opendatadiscovery/odd-platform.git",
+        "commit": "f363b2aebd8c362882fbd02dd04cf20fd64f7dfa"
+    },
+    {
+        "name": "opendistro-for-elasticsearch_sql",
+        "github_url": "git@github.com:opendistro-for-elasticsearch/sql.git",
+        "commit": "a549025e42e71fb3146f0ba2a1705cbd3fa2db9c"
+    },
+    {
+        "name": "openkm_document-management-system",
+        "github_url": "git@github.com:openkm/document-management-system.git",
+        "commit": "98c6410a46698af8c9979564fc5b40aa66254061"
+    },
+    {
+        "name": "opennetworkinglab_onos",
+        "github_url": "git@github.com:opennetworkinglab/onos.git",
+        "commit": "dd5172e5a6e1ba5c7e17e2f497aa8c27a1ed33e9"
+    },
+    {
+        "name": "opensourceBIM_BIMserver",
+        "github_url": "git@github.com:opensourceBIM/BIMserver.git",
+        "commit": "be76ca59cf7fd7fd667b3948f588824f3504c588"
+    },
+    {
+        "name": "oraxen_oraxen",
+        "github_url": "git@github.com:oraxen/oraxen.git",
+        "commit": "2325c81adaa9d865c9ee7efac1d2ea36792b5382"
+    },
+    {
+        "name": "p6spy_p6spy",
+        "github_url": "git@github.com:p6spy/p6spy.git",
+        "commit": "e0aa88e82ceaaa60f6bfcc478a2e0fdc175a81a2"
+    },
+    {
+        "name": "pac4j_pac4j",
+        "github_url": "git@github.com:pac4j/pac4j.git",
+        "commit": "ddad98c3bcdf51ab71b063a6fc3df329f1e8ca1c"
+    },
+    {
+        "name": "paoding-code_paoding-rose",
+        "github_url": "git@github.com:paoding-code/paoding-rose.git",
+        "commit": "8b512704174dd6cba95e544c7d6ab66105cb8ec4"
+    },
+    {
+        "name": "pgjdbc_r2dbc-postgresql",
+        "github_url": "git@github.com:pgjdbc/r2dbc-postgresql.git",
+        "commit": "5c6ea69c9475b83a787999e0ea1bfff2d2b227da"
+    },
+    {
+        "name": "pig-mesh_deepseek4j",
+        "github_url": "git@github.com:pig-mesh/deepseek4j.git",
+        "commit": "237d9342a85bbe57fbb2e74c09b56bde2eed4beb"
+    },
+    {
+        "name": "pig-mesh_excel-spring-boot-starter",
+        "github_url": "git@github.com:pig-mesh/excel-spring-boot-starter.git",
+        "commit": "e56a039c6bf9bc439059fd0fe8a735f73c1bf396"
+    },
+    {
+        "name": "pinterest_DoctorK",
+        "github_url": "git@github.com:pinterest/DoctorK.git",
+        "commit": "868687c0bd37512a1d661d98dd19dd318d63864a"
+    },
+    {
+        "name": "pippo-java_pippo",
+        "github_url": "git@github.com:pippo-java/pippo.git",
+        "commit": "6bb5d3e4d1cef3bd8f5d912817a7a78d973d8ffd"
+    },
+    {
+        "name": "pravega_pravega",
+        "github_url": "git@github.com:pravega/pravega.git",
+        "commit": "3142a01075bfae78d66588e46ff87e6e10225744"
+    },
+    {
+        "name": "prometheus_client_java",
+        "github_url": "git@github.com:prometheus/client_java.git",
+        "commit": "f5d8a4461150ed87960430f857139baaa7d2c7be"
+    },
+    {
+        "name": "proxyee-down-org_proxyee-down",
+        "github_url": "git@github.com:proxyee-down-org/proxyee-down.git",
+        "commit": "a8f1709f1603ef0c92e4818261842cb4eb804f79"
+    },
+    {
+        "name": "psi-probe_psi-probe",
+        "github_url": "git@github.com:psi-probe/psi-probe.git",
+        "commit": "4028af52b040c93251430b476d5bb58ca460af7b"
+    },
+    {
+        "name": "pulsarIO_realtime-analytics",
+        "github_url": "git@github.com:pulsarIO/realtime-analytics.git",
+        "commit": "3b1a82736fcf209978c07e95d01577d567346fa4"
+    },
+    {
+        "name": "redhat-scholars_istio-tutorial",
+        "github_url": "git@github.com:redhat-scholars/istio-tutorial.git",
+        "commit": "aea73b381c599504bbed332fa42be6e4ca60bf74"
+    },
+    {
+        "name": "redis_redis-om-spring",
+        "github_url": "git@github.com:redis/redis-om-spring.git",
+        "commit": "11a95fece6e6f54b8a933a3e719cf6a13058147d"
+    },
+    {
+        "name": "renrenio_renren-security",
+        "github_url": "git@github.com:renrenio/renren-security.git",
+        "commit": "d492800bb364c8f054461a18ad10f0eb7162f675"
+    },
+    {
+        "name": "requery_requery",
+        "github_url": "git@github.com:requery/requery.git",
+        "commit": "7ff49330f3b20b7d2bedba6457b18134a7bdbef8"
+    },
+    {
+        "name": "resilience4j_resilience4j",
+        "github_url": "git@github.com:resilience4j/resilience4j.git",
+        "commit": "21b45b2625d84e30fea79fd40f49c416cb899f68"
+    },
+    {
+        "name": "rest-assured_rest-assured",
+        "github_url": "git@github.com:rest-assured/rest-assured.git",
+        "commit": "2521f9d0287e7580e7680c232222c04f6e23b6e1"
+    },
+    {
+        "name": "restlet_restlet-framework-java",
+        "github_url": "git@github.com:restlet/restlet-framework-java.git",
+        "commit": "55416bd1b3a77e588aa9b3b6f149f74e03056564"
+    },
+    {
+        "name": "roncoo_roncoo-education",
+        "github_url": "git@github.com:roncoo/roncoo-education.git",
+        "commit": "10e96084023a3488014e7e796cd3073edcd9ba1a"
+    },
+    {
+        "name": "roncoo_roncoo-pay",
+        "github_url": "git@github.com:roncoo/roncoo-pay.git",
+        "commit": "9428382af21cd5568319eae7429b7e1d0332ff40"
+    },
+    {
+        "name": "roncoo_spring-boot-demo",
+        "github_url": "git@github.com:roncoo/spring-boot-demo.git",
+        "commit": "0ea84900e60b49cd000038fc26b13b7327abd695"
+    },
+    {
+        "name": "rule-engine_rule-engine-open",
+        "github_url": "git@github.com:rule-engine/rule-engine-open.git",
+        "commit": "781b10d22152e25be72a0ddbd8f48296d932d595"
+    },
+    {
+        "name": "runsidekick_sidekick",
+        "github_url": "git@github.com:runsidekick/sidekick.git",
+        "commit": "5b07ff8c9c4ad08c29906cc242c0a1235cab6e5b"
+    },
+    {
+        "name": "rymcu_forest",
+        "github_url": "git@github.com:rymcu/forest.git",
+        "commit": "de53ce79db9faa2efc4e79ce1077a302c42a1224"
+    },
+    {
+        "name": "script",
+        "github_url": "git@github.ibm.com:AsterLLM/coaster-dataset.git",
+        "commit": "3481e80b942fd88f43090842ab889afb247d7e47"
+    },
+    {
+        "name": "shopizer",
+        "github_url": "git@github.com:shopizer-ecommerce/shopizer.git",
+        "commit": "6a4a0a65a3408ee8f62597b51d1b3aac24b77dee"
+    },
+    {
+        "name": "siaorg_sia-gateway",
+        "github_url": "git@github.com:siaorg/sia-gateway.git",
+        "commit": "80f3487d94350296de37a9c7b2e9889fc70fb148"
+    },
+    {
+        "name": "siddhi-io_siddhi",
+        "github_url": "git@github.com:siddhi-io/siddhi.git",
+        "commit": "8d5cfd2ad79870f240d11f818609101649e866ee"
+    },
+    {
+        "name": "signalapp_BitHub",
+        "github_url": "git@github.com:signalapp/BitHub.git",
+        "commit": "82c9d21d292772e35ac40c8269001add2aa3e884"
+    },
+    {
+        "name": "sitewhere_sitewhere",
+        "github_url": "git@github.com:sitewhere/sitewhere.git",
+        "commit": "a7ca898667ab3c2778d13f8cbc0b9a2fb5656d15"
+    },
+    {
+        "name": "smart-cloud_smart-cloud",
+        "github_url": "git@github.com:smart-cloud/smart-cloud.git",
+        "commit": "bd5fccdc648bce72403876aea6f57022848af5a2"
+    },
+    {
+        "name": "smoothnlp_SmoothNLP",
+        "github_url": "git@github.com:smoothnlp/SmoothNLP.git",
+        "commit": "a7e8a827a6a03fa8a78d1a1a5b6bd2f84bcdad51"
+    },
+    {
+        "name": "snakerflow-starter_snakerflow-spring-boot-starter",
+        "github_url": "git@github.com:snakerflow-starter/snakerflow-spring-boot-starter.git",
+        "commit": "2a28afb1c00368b64809d9cb69433b7727b99c74"
+    },
+    {
+        "name": "soabase_exhibitor",
+        "github_url": "git@github.com:soabase/exhibitor.git",
+        "commit": "d345d2d45c75b0694b562b6c346f8594f3a5d166"
+    },
+    {
+        "name": "sofastack_sofa-ark",
+        "github_url": "git@github.com:sofastack/sofa-ark.git",
+        "commit": "c00830197c97c1bb5b3df6362cbf9eef35d6a1a7"
+    },
+    {
+        "name": "sofastack_sofa-tracer",
+        "github_url": "git@github.com:sofastack/sofa-tracer.git",
+        "commit": "9686b2f8e4fb3c9dbe4c89c09a0380843b5602a9"
+    },
+    {
+        "name": "spinnaker_kayenta",
+        "github_url": "git@github.com:spinnaker/kayenta.git",
+        "commit": "a69573be9d8fededacf80817e4151a2c8df41276"
+    },
+    {
+        "name": "spotify_docker-client",
+        "github_url": "git@github.com:spotify/docker-client.git",
+        "commit": "9a7c3b4994be9a55988f821f7177029201ff6aef"
+    },
+    {
+        "name": "spotify_docker-maven-plugin",
+        "github_url": "git@github.com:spotify/docker-maven-plugin.git",
+        "commit": "bae07ca8b69227886114191a4d933b57b212c100"
+    },
+    {
+        "name": "spotify_helios",
+        "github_url": "git@github.com:spotify/helios.git",
+        "commit": "819e59493b502ddbf40cd96a4a7a0ea2a8af3edb"
+    },
+    {
+        "name": "spring-attic_spring-cloud-aws",
+        "github_url": "git@github.com:spring-attic/spring-cloud-aws.git",
+        "commit": "e9e7b8cb158013464caa792b3e2de9cf7179678a"
+    },
+    {
+        "name": "spring-attic_spring-cloud-security",
+        "github_url": "git@github.com:spring-attic/spring-cloud-security.git",
+        "commit": "e469c037b937ab52050e82a78c0dbc7775e8171f"
+    },
+    {
+        "name": "spring-attic_spring-roo",
+        "github_url": "git@github.com:spring-attic/spring-roo.git",
+        "commit": "079df68cc4a8acb947ec404a0f65b26d84a2cab0"
+    },
+    {
+        "name": "spring-attic_spring-social-samples",
+        "github_url": "git@github.com:spring-attic/spring-social-samples.git",
+        "commit": "8ecbeb105dfa683d1a4a275b074bd5beb07f7039"
+    },
+    {
+        "name": "spring-attic_spring-social",
+        "github_url": "git@github.com:spring-attic/spring-social.git",
+        "commit": "e01365f2a6aeb340b59ee7c6230cb96a51c7ae84"
+    },
+    {
+        "name": "spring-cloud-samples_eureka",
+        "github_url": "git@github.com:spring-cloud-samples/eureka.git",
+        "commit": "a80f52e5b8cdb243231f0a4475fcf526a5d88271"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-commons",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-commons.git",
+        "commit": "15ed3d387c28b4608f58e50d8ed35b5bd11ca14c"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-consul",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-consul.git",
+        "commit": "e4c99e2e7a16123588a3377b32250c14eb7decad"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-gateway",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-gateway.git",
+        "commit": "384548b8cc94a663c00ce11de7f5763e2b7d021f"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-kubernetes",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-kubernetes.git",
+        "commit": "598c0e3d7a0e3efca8ae950ce74c724f3e77b5f1"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-netflix",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-netflix.git",
+        "commit": "3277e5558ae85a9f22627c29e459c2f5c4fb1415"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-openfeign",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-openfeign.git",
+        "commit": "23302b84cf5186f6481f25ae88e51fb3aa3e0638"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-stream",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-stream.git",
+        "commit": "4de9963203bfb3075bc17f8a40e298ab94baa474"
+    },
+    {
+        "name": "spring-cloud_spring-cloud-zookeeper",
+        "github_url": "git@github.com:spring-cloud/spring-cloud-zookeeper.git",
+        "commit": "03807c8411fd648af41c08da21390d67dd0be80f"
+    },
+    {
+        "name": "spring-guides_getting-started-guides",
+        "github_url": "git@github.com:spring-guides/getting-started-guides.git",
+        "commit": "43ea4ed9603349356f760efa7a598e98eb2dff70"
+    },
+    {
+        "name": "spring-guides_gs-messaging-stomp-websocket",
+        "github_url": "git@github.com:spring-guides/gs-messaging-stomp-websocket.git",
+        "commit": "d32172bfedbe386ebaea94db1d6c8412c87a163d"
+    },
+    {
+        "name": "spring-guides_gs-rest-service",
+        "github_url": "git@github.com:spring-guides/gs-rest-service.git",
+        "commit": "1fab30d1b17afdfdeb26fac1747a7507f8ef4bf0"
+    },
+    {
+        "name": "spring-guides_gs-spring-boot-docker",
+        "github_url": "git@github.com:spring-guides/gs-spring-boot-docker.git",
+        "commit": "a4f481e3d51850595a7d18061b9c10dbe5ddcba7"
+    },
+    {
+        "name": "spring-guides_gs-spring-boot",
+        "github_url": "git@github.com:spring-guides/gs-spring-boot.git",
+        "commit": "06f0444cf7de85de24128926504fc2f5f1b61e49"
+    },
+    {
+        "name": "spring-guides_tut-rest",
+        "github_url": "git@github.com:spring-guides/tut-rest.git",
+        "commit": "26316e9755824f5f0f05b50435fd681f16bf9ae8"
+    },
+    {
+        "name": "spring-guides_tut-spring-boot-oauth2",
+        "github_url": "git@github.com:spring-guides/tut-spring-boot-oauth2.git",
+        "commit": "c827fc8739f9e2658fced818bf8c6a40af7b9256"
+    },
+    {
+        "name": "spring-io_start.spring.io",
+        "github_url": "git@github.com:spring-io/start.spring.io.git",
+        "commit": "b7d833d7f30e20f0af499e9529d26acf43fea82c"
+    },
+    {
+        "name": "spring-petclinic",
+        "github_url": "git@github.com:spring-projects/spring-petclinic.git",
+        "commit": "6feeae0f13e0e258eedc99832416b42bb13779b1"
+    },
+    {
+        "name": "spring-petclinic_spring-petclinic-microservices",
+        "github_url": "git@github.com:spring-petclinic/spring-petclinic-microservices.git",
+        "commit": "b6eaebf1511cac7c596afe95b772a5a54eca7872"
+    },
+    {
+        "name": "spring-projects_spring-amqp-samples",
+        "github_url": "git@github.com:spring-projects/spring-amqp-samples.git",
+        "commit": "02ba7acd4214ebe995e44373eff6a6f7c70d013e"
+    },
+    {
+        "name": "spring-projects_spring-batch",
+        "github_url": "git@github.com:spring-projects/spring-batch.git",
+        "commit": "36068b5db84ff242032e9b00515454a84e0745d2"
+    },
+    {
+        "name": "spring-projects_spring-data-jpa",
+        "github_url": "git@github.com:spring-projects/spring-data-jpa.git",
+        "commit": "7332f29b2b5b26e2ad93895c6bf86c27066b2d67"
+    },
+    {
+        "name": "spring-projects_spring-data-neo4j",
+        "github_url": "git@github.com:spring-projects/spring-data-neo4j.git",
+        "commit": "f07d36583318c57041b2f77249cf48dae493403b"
+    },
+    {
+        "name": "spring-projects_spring-data-redis",
+        "github_url": "git@github.com:spring-projects/spring-data-redis.git",
+        "commit": "9787a5af5538428655c64fb9e2acb2307e3b16f1"
+    },
+    {
+        "name": "spring-projects_spring-data-relational",
+        "github_url": "git@github.com:spring-projects/spring-data-relational.git",
+        "commit": "547c756a634a1659f3807f7318f05549738b8f5d"
+    },
+    {
+        "name": "spring-projects_spring-data-rest",
+        "github_url": "git@github.com:spring-projects/spring-data-rest.git",
+        "commit": "b4003de17c0e78fa86e1ae19948d867116c9b611"
+    },
+    {
+        "name": "spring-projects_spring-graphql",
+        "github_url": "git@github.com:spring-projects/spring-graphql.git",
+        "commit": "e348dccdef4b36386106ebdf5a63dd97cc4b6848"
+    },
+    {
+        "name": "spring-projects_spring-hateoas",
+        "github_url": "git@github.com:spring-projects/spring-hateoas.git",
+        "commit": "d8721b070814dd12e23a53a7c6c2e398f016eb53"
+    },
+    {
+        "name": "spring-projects_spring-shell",
+        "github_url": "git@github.com:spring-projects/spring-shell.git",
+        "commit": "328f23a546ff1959768dfe43578109e0bb43be0a"
+    },
+    {
+        "name": "spring2go_staffjoy",
+        "github_url": "git@github.com:spring2go/staffjoy.git",
+        "commit": "4abd53705b1c89daa4313e45cb33aa1ffd5f959f"
+    },
+    {
+        "name": "springdoc_springdoc-openapi-demos",
+        "github_url": "git@github.com:springdoc/springdoc-openapi-demos.git",
+        "commit": "8723268f41c7566d41ac510626c00c358a56acc8"
+    },
+    {
+        "name": "springfox_springfox",
+        "github_url": "git@github.com:springfox/springfox.git",
+        "commit": "ab5868471cdbaf54dac01af12933fe0437cf2b01"
+    },
+    {
+        "name": "springside_springside4",
+        "github_url": "git@github.com:springside/springside4.git",
+        "commit": "8950746bb53ce209b4cb5d2d1706712e9c6a0efc"
+    },
+    {
+        "name": "square_keywhiz",
+        "github_url": "git@github.com:square/keywhiz.git",
+        "commit": "52e77fd9f477637d5ed36ed6d1815b9c96c06166"
+    },
+    {
+        "name": "ssssssss-team_magic-api",
+        "github_url": "git@github.com:ssssssss-team/magic-api.git",
+        "commit": "e1cdccaa5e6e8ca1cd876e72402e4447b53a163b"
+    },
+    {
+        "name": "ssssssss-team_spider-flow",
+        "github_url": "git@github.com:ssssssss-team/spider-flow.git",
+        "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d"
+    },
+    {
+        "name": "stagemonitor_stagemonitor",
+        "github_url": "git@github.com:stagemonitor/stagemonitor.git",
+        "commit": "326bb3f03344f2b0380a6453a7b7b96564e586c4"
+    },
+    {
+        "name": "steve-community_steve",
+        "github_url": "git@github.com:steve-community/steve.git",
+        "commit": "dea4bbdb4a44e0f132d4f022f2a13bca7cc5ff6a"
+    },
+    {
+        "name": "tal-tech_conan",
+        "github_url": "git@github.com:tal-tech/conan.git",
+        "commit": "ae626abc8e12b7f53e83ec1c042a9f5be16bae47"
+    },
+    {
+        "name": "tensorflow_java",
+        "github_url": "git@github.com:tensorflow/java.git",
+        "commit": "52f51f1d80aabf5edb566fc2c3aca58dcc59769e"
+    },
+    {
+        "name": "testsigmahq_testsigma",
+        "github_url": "git@github.com:testsigmahq/testsigma.git",
+        "commit": "2d27c743910fa0f6bd1858399c5508900256b398"
+    },
+    {
+        "name": "thingsboard_tbmq",
+        "github_url": "git@github.com:thingsboard/tbmq.git",
+        "commit": "59c20fdc7bd472f520af8e3bdd93a22f45ec4da5"
+    },
+    {
+        "name": "thymeleaf_thymeleaf",
+        "github_url": "git@github.com:thymeleaf/thymeleaf.git",
+        "commit": "804d5be1979950a2b83886f1a8eb979429ffa3c0"
+    },
+    {
+        "name": "tmobile_pacbot",
+        "github_url": "git@github.com:tmobile/pacbot.git",
+        "commit": "997c240c123d81cf3f55ff5093127c5fda6119c3"
+    },
+    {
+        "name": "twitter-archive_commons",
+        "github_url": "git@github.com:twitter-archive/commons.git",
+        "commit": "10df6fb63547baa9047782aa7ad4edf354914b10"
+    },
+    {
+        "name": "uber-archive_AthenaX",
+        "github_url": "git@github.com:uber-archive/AthenaX.git",
+        "commit": "fcafb92d41a6808696abaecad376af6504f45791"
+    },
+    {
+        "name": "ucarGroup_DataLink",
+        "github_url": "git@github.com:ucarGroup/DataLink.git",
+        "commit": "dd8d26aad4b74db2fdea874dab3b2d3b241070ea"
+    },
+    {
+        "name": "uniVocity_univocity-trader",
+        "github_url": "git@github.com:uniVocity/univocity-trader.git",
+        "commit": "098bb36988bf3df5cf118665553e7b9e1b429797"
+    },
+    {
+        "name": "unicode-org_cldr",
+        "github_url": "git@github.com:unicode-org/cldr.git",
+        "commit": "c8e198347788583800f9865a18a4a88ec7f5986f"
+    },
+    {
+        "name": "vaadin_hilla",
+        "github_url": "git@github.com:vaadin/hilla.git",
+        "commit": "caf43dcd54f9c6aea7404005389716b0343fca94"
+    },
+    {
+        "name": "vipshop_Saturn",
+        "github_url": "git@github.com:vipshop/Saturn.git",
+        "commit": "21655b61fd98e194a8561e218e30ca37426dff67"
+    },
+    {
+        "name": "vivo_MoonBox",
+        "github_url": "git@github.com:vivo/MoonBox.git",
+        "commit": "59bedca377cd839dbfac992a225fb54ee77a3ab9"
+    },
+    {
+        "name": "weiboad_fiery",
+        "github_url": "git@github.com:weiboad/fiery.git",
+        "commit": "b04da32a2725b533d12bc2c8f5c5b4119bef605a"
+    },
+    {
+        "name": "wso2_product-is",
+        "github_url": "git@github.com:wso2/product-is.git",
+        "commit": "a0a693fbf67ba62f22d82c90066c59ddade11754"
+    },
+    {
+        "name": "wxpusher_wxpusher-sdk-java",
+        "github_url": "git@github.com:wxpusher/wxpusher-sdk-java.git",
+        "commit": "25db3a57ec748768f939d20aef7db82d27419fd3"
+    },
+    {
+        "name": "wyh-spring-ecosystem-student_spring-boot-student",
+        "github_url": "git@github.com:wyh-spring-ecosystem-student/spring-boot-student.git",
+        "commit": "9121eeff02bc7ec25e1ebec77be02dd374284cb3"
+    },
+    {
+        "name": "xaecbd_KCenter",
+        "github_url": "git@github.com:xaecbd/KCenter.git",
+        "commit": "0d7a6a015314aca4f65d05e6af2016c2ab63ea0d"
+    },
+    {
+        "name": "xiaolyuh_layering-cache",
+        "github_url": "git@github.com:xiaolyuh/layering-cache.git",
+        "commit": "282d3c10fc935bbfd981397a0997bb27ffd9aeae"
+    },
+    {
+        "name": "yahoo_mysql_perf_analyzer",
+        "github_url": "git@github.com:yahoo/mysql_perf_analyzer.git",
+        "commit": "94a9292bd4cf07062ec6211e8da9077079db0f79"
+    },
+    {
+        "name": "yanagishima_yanagishima",
+        "github_url": "git@github.com:yanagishima/yanagishima.git",
+        "commit": "59e1ca059f120decc6b1dbc655b1393e15feb977"
+    },
+    {
+        "name": "youlaitech_youlai-mall",
+        "github_url": "git@github.com:youlaitech/youlai-mall.git",
+        "commit": "9f62de811d478b3ab6b27438efd58e2c4fdb4c31"
+    },
+    {
+        "name": "zalando_logbook",
+        "github_url": "git@github.com:zalando/logbook.git",
+        "commit": "8af8991500a83b411f3a389323a3e1ee30b7c6b8"
+    },
+    {
+        "name": "zalando_nakadi",
+        "github_url": "git@github.com:zalando/nakadi.git",
+        "commit": "09f70f861401d5417c659b1a6e5b03d2467086f8"
+    },
+    {
+        "name": "zalando_problem-spring-web",
+        "github_url": "git@github.com:zalando/problem-spring-web.git",
+        "commit": "c8a9b250e2ef991aaf1e76ae3d04ae46512b2219"
+    },
+    {
+        "name": "zfile-dev_zfile",
+        "github_url": "git@github.com:zfile-dev/zfile.git",
+        "commit": "66ef3f9e2b143d04ca3896b3cf2e014be854c0a5"
+    },
+    {
+        "name": "zmops_zeus-iot",
+        "github_url": "git@github.com:zmops/zeus-iot.git",
+        "commit": "b314c05a497dc0901cb658f8704e2efa62953cb4"
+    },
+    {
+        "name": "zxing_zxing",
+        "github_url": "git@github.com:zxing/zxing.git",
+        "commit": "71b49acc53d311efc570a22cfdd694ba3dd95bc3"
+    }
+]
