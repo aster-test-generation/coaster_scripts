@@ -17,15 +17,17 @@ class TestClassification(BaseModel):
     )
 
 def is_integration_test(file_content: str) -> TestClassification:
-    api_key = os.getenv("OPENAI_API_KEY") 
+    # api_key = os.getenv("OPENAI_API_KEY") 
+    api_key = os.getenv("OPENROUTER_API_KEY") 
 
     # if the environment variable is not set, raise an error
     if not api_key:
-        raise ValueError("OPENAI_API_KEY environment variable is not set.")
+        raise ValueError("API_KEY environment variable is not set.")
     
     # 2. Setup the Model
     # We use 'with_structured_output' to bind the Pydantic model to the LLM
     llm = ChatOpenAI(
+        base_url="https://openrouter.ai/api/v1",
         model="gpt-4o",
         temperature=0.1,
         api_key=api_key

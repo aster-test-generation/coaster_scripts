@@ -21,13 +21,15 @@ class IntergrationPatternRating(BaseModel):
     )
 
 def rate_integration_test_pattern(file_content: str) -> IntergrationPatternRating:
-    api_key = os.getenv("OPENAI_API_KEY")   
+    # api_key = os.getenv("OPENAI_API_KEY")   
+    api_key = os.getenv("OPENROUTER_API_KEY")   
 
     # if the environment variable is not set, raise an error
     if not api_key:
-        raise ValueError("OPENAI_API_KEY environment variable is not set.") 
+        raise ValueError("API KEY environment variable is not set.") 
     
     llm = ChatOpenAI(
+        base_url="https://openrouter.ai/api/v1",
         model="gpt-4o",
         temperature=0.1,
         api_key=api_key
