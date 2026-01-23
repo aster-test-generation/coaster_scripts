@@ -23,6 +23,10 @@ class ConfidenceScore(str, Enum):
     HIGH = "High"
 
 class IntegrationTestAnalysis(BaseModel):
+    is_self_contained: bool = Field(
+        ...,
+        description="True if the test manages its own state and does not depend on execution order or pre-existing data. False otherwise."
+    )
     analysis_of_mechanism: str = Field(
         ..., 
         description="Describe specifically how this class ensures tests don't interfere with each other. Mention specific annotations or method calls."
@@ -60,7 +64,7 @@ def classify_integration_test_pattern(file_content: str) -> IntegrationTestAnaly
     system_rules = """
 Role: You are an expert Software Test Architect researching strategies for "Self-Contained Integration Tests."
 
-Context: We have identified 4 common patterns developers use to ensure integration tests are isolated (i.e., one test's data does not break another test). We are analyzing a dataset of tests to see if they fit these patterns or if developers are using strategies we haven't documented yet.
+Context: We have identified 4 common patterns developers use to ensure integration tests are self-contained (i.e., one test's data does not break another test). We are analyzing a dataset of tests to see if they fit these patterns or if developers are using strategies we haven't documented yet. We first need to confirm if the test is actually self-contained (i.e., it can run reliably regardless of previous test executions and leaves the system clean). If it is, we want to classify how it achieves that.
 
 The Known Patterns (Reference):
 
@@ -72,9 +76,21 @@ The Known Patterns (Reference):
 
 4. Manually Create and Clean: No global fixtures or automated setups are used. The specific @Test method manually handles all data creation and cleanup logic inline.
 
+5. Not Self-Contained: The test relies on pre-existing data (that it didn't create), depends on the execution order of other tests, or fails to clean up data that might impact subsequent tests.
+
 Your Task:
 
-1. Analyze the Code: Read the provided test class. specifically looking for how it manages state.
+1. Determine Self-Containment:
+
+    Does the test assume data already exists in the DB (without creating it)?
+
+    Does it use @TestMethodOrder or similar annotations suggesting order dependency?
+
+    Does it lack any cleanup logic (no transaction rollback, no deletes, no restarts)?
+
+    If any of these are true, classify as "Not Self-Contained".
+
+2. Analyze the Code: Read the provided test class. specifically looking for how it manages state.
 
     Does the application context restart?
 
@@ -84,9 +100,9 @@ Your Task:
 
     Is data explicitly deleted, or does the test rely on unique IDs to avoid collisions?
 
-2. Compare & Categorize: Compare your findings against the "Known Patterns."
+3. Compare & Categorize: Compare your findings against the "Known Patterns."
 
-3. Propose (if needed): If the strategy used in the code is not clearly described by the 4 patterns above, you must propose a new pattern.
+4. Propose (if needed): If the strategy used in the code is not clearly described by the 4 patterns above, you must propose a new pattern.
 
     Note: Do not try to force the code into a category if it doesn't fit well. We are actively looking for new, undocumented patterns.
 
