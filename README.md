@@ -2,7 +2,7 @@
 
 Use poetry to set up Python environment with `pyproject.toml`
 
-Set `OPENAI_API_KEY`
+Create `.env` and set API keys in it. Currently version uses OpenRouter.
 
 # Run
 
