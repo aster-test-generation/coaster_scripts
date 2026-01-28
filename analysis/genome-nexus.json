@@ -1,0 +1,82 @@
+{
+    "org.cbioportal.genome_nexus.web.NucleotideContextIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test does not include any setup or teardown methods for managing state. It assumes that the data required is already present in the system and does not perform any cleanup after execution. There are no annotations or logic to restart the application context, and it relies on the existing state without any transaction management or data deletion.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The test assumes the data already exists in the system for the given variants, and there is no mechanism to ensure or clean this state within the test. It lacks setup/teardown lifecycle methods, does not restart the application context, and does not manipulate or clean the database, fitting none of the known patterns.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.AnnotationSummaryIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test setup relies on data being present in the database. The setup method `setupDB` saves objects to the database only if the count is zero, indicating that it assumes data might already be present. There is no database cleanup or teardown logic present to remove or reset this data after tests run. There is no application context restart or transaction rollback mechanism in place.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The test does not ensure a clean state before or after execution as it lacks cleanup logic. The database is initialized only once, and subsequent test runs may rely on leftover data from previous executions. This reliance on pre-existing data makes the test not self-contained.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.SignalIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test class uses a shared context with a single database initialization in the @BeforeClass method. The setupDB method in the @Before annotation checks if the database is empty and inserts data only once, without cleaning it up after tests.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Lazy Initialization without Cleanup",
+        "reasoning": "The code does not restart the application context, nor does it completely clear and reload the database before each test. Instead, it uses a lazy initialization approach that populates the database only if it's empty, without any cleanup logic. This could lead to data contamination if tests are run in a different order or if the database is not empty initially. Thus, it does not fit the existing patterns as it neither restarts nor cleans up between tests.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.AnnotationIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test class uses SpringJUnit4ClassRunner and SpringBootTest annotations, but there are no @Before or @After lifecycle methods managing state or cleanup. The tests use RestTemplate to make HTTP requests, but there is no evidence of data setup or teardown that ensures a clean state before or after each test. There is no application context restart, transaction management, or explicit data cleanup performed in these tests.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The tests in this class rely on pre-existing data and do not manage their state. There is no indication of any mechanism ensuring that the tests are isolated from each other. There are no lifecycle methods or transaction management that would clean up the state between tests, making them not self-contained.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.PtmIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a @Before method to set up the database state by inserting mock data if the database is empty. This ensures that the test data is consistent and does not depend on any previous test run. There is no application restart or explicit cleanup after each test, but the database is populated only once if empty, reducing the risk of test interference.",
+        "fit_assessment": "Loose Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class partially fits Pattern 2 (Clear and Reload) because it uses the @Before method to insert data into the database, ensuring that required data is present before the tests run. However, it does not explicitly clear the database before inserting data, as it checks if the database is empty before insertion. This approach can lead to a loosely fitting scenario where the database might retain data between test classes if not empty initially. Thus, while it manages state to some extent, it does not fully align with the typical 'clear and reload' strategy, which would clear the data irrespective of its current state.",
+        "confidence_score": "Medium"
+    },
+    "org.cbioportal.genome_nexus.web.PdbHeaderIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test does not utilize any setup or teardown logic to manage the state. It makes GET and POST requests to a running application instance but assumes data exists at the specified endpoints without creating it. There are no lifecycle methods or transaction management present.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The test directly makes HTTP requests to an endpoint and checks the responses. It does not manage or reset any state before or after the test, nor does it create any data itself. It relies on pre-existing data at the endpoint, thus fitting the 'Not Self-Contained' category.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.MyVariantInfoIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test class does not employ any annotations or methods to ensure a clean state before or after tests. It lacks lifecycle methods like @Before or @After for setup or cleanup. The @Test methods directly interact with the service using HTTP calls without any explicit data creation or cleanup.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "No Self-Containment Strategy",
+        "reasoning": "The test class lacks any mechanism to ensure that the tests are self-contained. There are no application restarts, no lifecycle methods for setup or teardown, and no transaction management. The tests directly call API endpoints without ensuring the data is set up or cleaned up, relying on pre-existing data or system state.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.GeneXrefIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test does not perform any setup or teardown of data. It relies on existing data from an external service endpoint and does not ensure cleanup after execution. The @Before method only configures the RestTemplate for JSON mapping; it does not manage test data.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "External Dependency Without Isolation",
+        "reasoning": "The test does not match any of the known patterns as it does not manipulate or isolate data in the database or through API. It relies on pre-existing data from an external service without any state management, causing potential flakiness if the external data changes.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.CancerHotspotsIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a combination of @BeforeClass and @Before methods to manage the test state. The @BeforeClass method loads a set of hotspots from a JSON file into a static list, and the @Before method ensures that these hotspots are inserted into the database only if the database is empty. This ensures that each test can run independently without interference from data inserted by other tests. It does not restart the application context, hence the context is shared among tests. There is no order dependency or reliance on existing data as the database is populated at the start of each test run if necessary.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class fits Pattern 2 (Clear and Reload) as it uses a shared application context (no restarts) and manages the database state using a fixture (the @Before method) that reloads data from a JSON file into the database if the database is empty. This ensures that tests do not interfere with each other and are self-contained.",
+        "confidence_score": "High"
+    },
+    "org.cbioportal.genome_nexus.web.VEPIdIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test makes HTTP GET and POST requests to a local server running at a predefined port (38891). It does not contain any setup or teardown logic to prepare or clean the test environment. There are no annotations or methods like @Before, @After, or @Transactional for state management. The test relies on an external service being available, and there is no indication of restarting the application context or cleaning database entries.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "External Dependency Assumed",
+        "reasoning": "The test does not fit any of the known patterns because it lacks any lifecycle management, setup, or teardown logic. It directly sends requests to a REST API without ensuring a clean state before or after the test. The test assumes that the external service and its state are persistently available and correct, leading to potential order dependency or interference if the service state is not isolated per test.",
+        "confidence_score": "High"
+    }
+}

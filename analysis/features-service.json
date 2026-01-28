@@ -1,0 +1,50 @@
+{
+    "org.javiermf.features.services.rest.ConstraintExcludesIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Sql annotation to execute SQL scripts before the test method runs, ensuring the database is in a specific state. The @WebIntegrationTest annotation indicates the application context is restarted for each test, ensuring isolation between tests.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Restart and Initialize (App Lifecycle)",
+        "reasoning": "The use of @WebIntegrationTest suggests the application undergoes a restart for test isolation, aligning with Pattern 1. The @Sql annotation is used to load specific data, but the restart driven by @WebIntegrationTest is the primary mechanism ensuring a clean state, thus fitting Pattern 1 perfectly.",
+        "confidence_score": "High"
+    },
+    "org.javiermf.features.services.rest.ProductConfigurationsIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Sql annotation to execute SQL scripts before each test method, ensuring the database is reset to a known state. The SQL scripts '/empty-db.sql' and '/data-test.sql' are used for this purpose. This approach keeps the application context running without restarting it, thus maintaining a shared application instance across tests.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The use of @Sql with SQL scripts to clear and set up the database before each test aligns perfectly with the Clear and Reload pattern. The application context is not restarted, and the database is manipulated directly using SQL scripts specified in the class annotations.",
+        "confidence_score": "High"
+    },
+    "org.javiermf.features.services.rest.ProductResourceIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Sql annotation to execute SQL scripts before each test method, ensuring a clean database state. It initially runs 'empty-db.sql' to clear data, followed by 'data-test.sql' to set up necessary test data. The @WebIntegrationTest annotation indicates that the application context is restarted for each test method, ensuring isolation between tests.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Restart and Initialize (App Lifecycle)",
+        "reasoning": "The use of @WebIntegrationTest suggests that the application context is restarted for each test, which aligns with the \"Restart and Initialize (App Lifecycle)\" pattern. Additionally, the @Sql annotation is used to set up the database state, ensuring that each test has a clean and consistent starting point.",
+        "confidence_score": "High"
+    },
+    "org.javiermf.features.services.rest.ProductsConstraintsIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses @Sql annotation with scripts '/empty-db.sql' and '/data-test.sql' to ensure the database is in a known state before each test method. The @WebIntegrationTest annotation indicates that the application context is restarted for each test, ensuring isolation. No @Before or @After methods are needed because the database state is reset using SQL scripts.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Restart and Initialize (App Lifecycle)",
+        "reasoning": "The use of @Sql annotation to reset the database state before each test, combined with the @WebIntegrationTest (which indicates app context restart), aligns perfectly with the 'Restart and Initialize (App Lifecycle)' pattern. This ensures that each test starts with a fresh application context and database state.",
+        "confidence_score": "High"
+    },
+    "org.javiermf.features.services.rest.ConstraintRequiresIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Sql annotation to ensure the database is in a known state before each test execution. Specifically, it executes the scripts 'empty-db.sql' and 'data-test.sql' to clear and load test data. Additionally, the @WebIntegrationTest annotation suggests the application context is restarted for this test class, ensuring a clean slate for each test run.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Restart and Initialize (App Lifecycle)",
+        "reasoning": "The presence of the @WebIntegrationTest annotation indicates that the application context is re-initialized for the test class, aligning with the 'Restart and Initialize' pattern. This guarantees a fresh state independent of other tests. The @Sql annotation further supports this by ensuring the database is in the required state. Together, these mechanisms ensure the test is self-contained by restarting the application and initializing data before execution.",
+        "confidence_score": "High"
+    },
+    "org.javiermf.features.services.rest.ProductsFeaturesIntegrationTests": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Sql annotation to execute SQL scripts before each test method. The scripts 'empty-db.sql' and 'data-test.sql' are used to clear the database and load a predefined dataset, ensuring a consistent starting state for each test. The application context is set to restart using @WebIntegrationTest and @SpringApplicationConfiguration.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Restart and Initialize (App Lifecycle)",
+        "reasoning": "The use of @Sql to reload data and the presence of @WebIntegrationTest indicate that the application context is restarted for each test, which aligns perfectly with the 'Restart and Initialize' pattern. The database is reset using SQL scripts, ensuring no interference between tests.",
+        "confidence_score": "High"
+    }
+}

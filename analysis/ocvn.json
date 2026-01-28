@@ -1,0 +1,18 @@
+{
+    "org.devgateway.ocds.web.rest.controller.test.ReleaseExportTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses lifecycle methods @Before and @After to delete all records in the 'release' collection before and after each test, ensuring a clean state. The @Before method sets up the MockMvc instance using the Spring WebApplicationContext but does not restart the application, indicating shared app context. The tests create necessary data using a fixture file loaded during the test execution.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class relies on @Before and @After methods to clear the database and sets up test data using JSON import, which fits the Clear and Reload pattern. The database is directly manipulated without restarting the application context, and the test setup is done in these lifecycle methods, which aligns perfectly with the known pattern.",
+        "confidence_score": "High"
+    },
+    "org.devgateway.ocds.web.rest.controller.ReleaseExportTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses @Before and @After annotated methods to ensure that the database (release collection) is empty before and after each test runs. Specifically, 'releaseRepository.deleteAll()' is called in both methods to manage the state of the data, ensuring no data from a previous test affects another. The application context is not restarted; rather, a shared context is maintained using 'MockMvcBuilders.webAppContextSetup(this.wac).build()'.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class fits Pattern 2: Clear and Reload because it uses lifecycle methods (@Before and @After) to clear the database before and after each test. The application context remains active, and the manipulation is direct against the database without any restart or API-based setup. The data is managed via repository calls, which aligns perfectly with the Clear and Reload pattern.",
+        "confidence_score": "High"
+    }
+}

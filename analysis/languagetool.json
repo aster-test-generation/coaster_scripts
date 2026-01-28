@@ -1,0 +1,58 @@
+{
+    "org.languagetool.server.HTTPSServerTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The tests use the @Before annotation to disable the DatabaseLogger, ensuring no interference from previous logging state. Each test method starts and stops an instance of the HTTPSServer, ensuring a fresh state for the server in each test. This prevents any side effects from previous tests affecting the current test's execution. The server is configured and run within each test method, and it is stopped in the finally block, ensuring cleanup after each test.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The code sets up the server state within each test method and ensures cleanup by stopping the server in the finally block. There are no fixtures used for state setup; everything is inline in the @Test methods. This matches Pattern 4 perfectly as all data setup and teardown logic is within the @Test methods themselves, ensuring tests do not interfere with each other.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.DatabaseLoggerTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test uses an in-memory HSQLDB database (jdbc:hsqldb:mem:testdb) which is initialized and cleaned up within the test method. Specifically, it creates test tables at the start (logger.createTestTables) and drops them at the end (logger.dropTestTables()). Additionally, data is inserted and validated within the same test, ensuring that no external data dependencies exist. The use of an in-memory database further ensures isolation between test runs.",
+        "fit_assessment": "Loose Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test setup and teardown logic is entirely contained within the test method, with no use of @Before/@After fixtures. This matches Pattern 4: Manually Create and Clean (Inline Logic). However, the use of a standard library for SQL operations and a logger instance to manipulate tables is a slight deviation from purely inline logic, hence a 'Loose Fit'.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.UserDictTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class sets up and tears down its state entirely within the `testHTTPServer` method. It initializes a test database using `DatabaseAccess.createAndFillTestTables()` and deletes the tables afterwards using `DatabaseAccess.deleteTestTables()`. The HTTP server is started and stopped within the same test method, ensuring no server state persists between test runs.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test method `testHTTPServer` contains all setup and teardown logic inline. It initializes the state by creating test tables and starts an HTTP server within the method. It ensures cleanup by stopping the server and deleting test tables in the `finally` block. No external fixtures or application restarts are used, fitting the 'Manually Create and Clean (Inline Logic)' pattern perfectly.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.HTTPServerTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The tests ensure self-containment by setting up and tearing down the HTTP server in each test method. The setup method, annotated with @Before, disables logging to prevent interference. Each test method instantiates an HTTPServer and runs it temporarily for the duration of the test, ensuring that the server is started and stopped within the test method itself. This avoids any interference from other tests, as the server is always in a clean state for each test execution.",
+        "fit_assessment": "Loose Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test methods do not rely on global fixtures or restart the application context entirely, but they do manage the server lifecycle within each test method. This closely resembles Pattern 4 (Manually Create and Clean), as each test method is responsible for its own setup and teardown, ensuring no side effects on other tests. However, the behavior of starting and stopping the server might suggest a new sub-pattern under Pattern 4.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.LargeUserDictTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test relies on a real database connection and modifies it, as indicated by the configuration setup for a MariaDB database and the direct interaction with the database through HTTP API calls. There is no evidence of cleanup logic or context restart, nor are there fixtures to reset the database state before or after tests.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "External Database Dependence",
+        "reasoning": "The test is not self-contained as it requires a real database and modifies it without any apparent cleanup mechanism. The lack of cleanup logic or context restart, combined with the reliance on external database state, means it does not fit any of the known patterns. It suggests a new pattern where tests depend on external systems without isolating state changes.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.HTTPServerOverheadTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test method `test()` is annotated with `@Ignore`, indicating it's not meant for automated testing but rather interactive use. It runs `checkTextOnServer` without setting up or cleaning up any state, assuming a running HTTP service on localhost. There are no restart mechanisms, fixture methods, nor transaction management. It does not explicitly handle cleanup or unique data creation.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The test relies on a pre-existing HTTP service and does not initialize or clean up any state. It directly interacts with an external running service without ensuring a fresh state. The absence of setup or cleanup logic within the test or fixtures confirms it as 'Not Self-Contained'.",
+        "confidence_score": "High"
+    },
+    "org.languagetool.server.HTTPSServerTesting": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test class relies on a running server instance which is manually started, indicated by the comment 'Start the server yourself'. There is no logic in the test to start or stop the server, suggesting an external dependency. The @Ignore annotation indicates the test is not meant for automated runs in its current form. Moreover, there is no cleanup logic for any data created during the test execution, and the test appears to depend on pre-existing data or server state.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Manual External Dependency",
+        "reasoning": "The test class does not fit any of the known patterns as it relies on a manually started server and lacks any state initialization or cleanup logic. The test is ignored for automated test runs, indicating it is intended for manual, interactive testing rather than being self-contained or automated. This suggests a pattern where tests are dependent on manual setup and are not suitable for automated test suites.",
+        "confidence_score": "High"
+    }
+}

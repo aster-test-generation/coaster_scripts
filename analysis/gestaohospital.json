@@ -1,0 +1,34 @@
+{
+    "br.com.codenation.hospital.HospitalResourceTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a @Before method, 'setUp', which posts a new hospital entity to the API before each test method. This ensures that each test starts with a consistent state by creating a fresh entity. No application context restart is observed, and the test setup is performed via API calls. Each test method manipulates and asserts the state using HTTP requests, ensuring isolation through API-level fixtures.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Create via API Calls (Fixture-based API Manipulation)",
+        "reasoning": "The test class fits the 'Create via API Calls (Fixture-based API Manipulation)' pattern as it uses lifecycle methods (@Before) to create the necessary state via HTTP API requests before each test. There is no direct DB manipulation or application context restart, which aligns perfectly with this pattern.",
+        "confidence_score": "High"
+    },
+    "br.com.codenation.hospital.PatientResourceTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test class uses a shared application context and does not restart the application between tests. It utilizes a @Before method to set up state by retrieving existing data from the database (hospitalTest and patientTest). There is no explicit cleanup logic like transaction rollback or data deletion after tests. The tests assume the existence of data with specific IDs, indicating reliance on pre-existing database state.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Pre-existing Data Dependency",
+        "reasoning": "The test class does not fit into any of the known self-contained integration test patterns because it assumes the existence of specific data in the database without creating it through the test setup. It lacks mechanisms to isolate data state between tests, such as application restarts or explicit database cleanup. Therefore, it represents a pattern where tests depend on pre-existing data.",
+        "confidence_score": "High"
+    },
+    "br.com.codenation.hospital.LocationRepositoryTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a @Before method to set up the data state by saving specific Location instances to the repository. There are no @After methods, but since each test independently sets up its required state, it does not depend on external data or previous test runs. There is no app restart or transaction management involved, but the tests ensure a clean state by using the @Before method to populate the database with known data before each test.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class uses a shared application context and manipulates the database directly in the @Before method to prepare a specific set of data before each test. This matches the 'Clear and Reload' pattern where the data is set up using fixtures (in this case, the @Before method), and there is no application context restart or transaction management for rollback.",
+        "confidence_score": "High"
+    },
+    "br.com.codenation.hospital.ProductResourceTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test relies on pre-existing data. The @Before method fetches a Hospital and its Products from the database using hospitalService.findById(\"1\"). There are no lifecycle methods like @After or @AfterEach to clean up the data after tests are executed. The tests assume the data is already present.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Not Self-Contained",
+        "reasoning": "The code does not fit any of the existing patterns because it relies on pre-existing data and does not ensure a clean state before or after test execution. There is no setup logic that initializes data independently from previous executions, nor is there any cleanup logic to maintain isolation between tests.",
+        "confidence_score": "High"
+    }
+}

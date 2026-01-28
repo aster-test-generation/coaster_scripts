@@ -1,0 +1,50 @@
+{
+    "se.devscout.scoutapi.TagsIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test methods utilize API calls to ensure that they leave the system in a clean state. They perform CRUD operations via HTTP requests and verify the system's state after each operation. The test class uses the DropwizardAppRule to manage the application lifecycle, which ensures a clean state between tests.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Create via API Calls (Fixture-based API Manipulation)",
+        "reasoning": "The test methods use HTTP API calls to create, read, update, and delete data. The test class does not restart the application for each test, nor does it directly manipulate the database. Instead, it relies on API interactions to set up and tear down data, fitting perfectly with the 'Create via API Calls (Fixture-based API Manipulation)' pattern.",
+        "confidence_score": "High"
+    },
+    "se.devscout.scoutapi.MediaFilesIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @After annotation to implement a teardown method that cleans up media files created during tests by deleting them from the filesystem. The DropwizardAppRule ensures that the application context is started once for the entire test class, indicating that the application is not restarted per test. Instead, the tests manage their own data setup and teardown through API calls. Each test method creates its own data using unique identifiers, ensuring no collisions or dependencies on pre-existing data.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "This test class fits the 'Manually Create and Clean (Inline Logic)' pattern because it does not use any external fixture methods like @Before or @BeforeEach to set up data. Instead, each @Test method sets up its own data and performs cleanup inline. The @After method is used to clean up files, ensuring no data is left behind after tests run.",
+        "confidence_score": "High"
+    },
+    "se.devscout.scoutapi.SystemMessagesIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a shared application instance managed by the DropwizardAppRule, which ensures that the application is running in a test mode. The tests create, update, and delete resources via API calls to ensure that each test method operates on a clean state. The test methods ensure cleanup by deleting any created resources and verifying the state after operations. There are no lifecycle methods like @Before or @After, as setup and teardown are handled inline within test methods.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "This test class fits perfectly with the 'Manually Create and Clean (Inline Logic)' pattern because all data setup and teardown are managed within the @Test methods directly. There is no use of external fixtures or app restarts, and the tests rely on API calls to ensure a clean state by creating and deleting resources directly.",
+        "confidence_score": "High"
+    },
+    "se.devscout.scoutapi.ActivitiesIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the DropwizardAppRule to manage the lifecycle of the application. Each test method performs its own setup and teardown by creating, updating, and deleting activities via API calls, ensuring that the database state is reset between tests. There are no lifecycle methods (@Before/@After), and all setup and teardown logic is contained within the individual test methods.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test methods manage their own state by using API calls to create, update, and delete data. There are no external fixtures or application restarts involved, and the logic for maintaining test isolation is embedded within each test method. This matches Pattern 4 - Manually Create and Clean (Inline Logic) perfectly.",
+        "confidence_score": "High"
+    },
+    "se.devscout.scoutapi.SystemIntegrationTest": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test relies on a shared application context provided by the DropwizardAppRule, which indicates a possible shared state across tests. There are no lifecycle methods or explicit data cleanup logic in this class. The tests do not create or clean up any data and seem to depend on pre-existing data (e.g., roles.json fixture).",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Shared State with External Fixture Dependency",
+        "reasoning": "The test class uses a @ClassRule, which indicates a shared application context for all tests in the class. There is no indication of data setup or teardown within the tests, suggesting reliance on pre-existing data or external fixtures. This does not align with any of the known patterns that ensure self-containment through lifecycle management or fixture setup/teardown.",
+        "confidence_score": "High"
+    },
+    "se.devscout.scoutapi.UsersIntegrationTest": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the DropwizardAppRule to initialize the application context once for the class, and each test method performs its own setup and teardown. It creates and deletes users via API calls within each test method, ensuring no persistent state is carried over between tests. The use of HTTP API calls for setup and teardown is a key differentiator.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Create via API Calls (Fixture-based API Manipulation)",
+        "reasoning": "The test class uses API calls within each test method to manage the state. It creates users and verifies their existence or non-existence via HTTP API, which is indicative of the 'Create via API Calls' pattern. There are no lifecycle methods like @Before or @After, but the logic for setup and teardown is embedded within each test method using API calls.",
+        "confidence_score": "High"
+    }
+}

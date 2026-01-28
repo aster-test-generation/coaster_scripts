@@ -1,0 +1,82 @@
+{
+    "org.zalando.catwatch.backend.web.config.CorsFilterIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test method 'testCorsHeadersInResponse_forRootPage' uses an HTTP client to send a GET request to the application's root page and verifies the response headers. There are no @Before or @After methods indicating fixture-based setup or cleanup, nor are there annotations such as @DirtiesContext or @Transactional. The test appears to be self-contained by relying on a unique endpoint call without needing data setup or teardown.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test method contains all necessary logic within itself, using HTTP requests to verify the application's behavior without needing any data setup or cleanup. It doesn't rely on fixtures or application context restarts, fitting perfectly into Pattern 4.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.StatisticsApiMvcIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the repository.deleteAll() method in the test methods to clear the database before inserting new test data, ensuring that each test runs with a clean state. There are no application restarts or transaction rollbacks; the data cleanup is handled manually within the test methods themselves.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The tests ensure a clean state by manually calling repository.deleteAll() within each test method to clear the database. New data is then inserted directly within the test methods (inline logic), without relying on any @Before or @After fixtures for setup or teardown. This aligns perfectly with the 'Manually Create and Clean (Inline Logic)' pattern, where each @Test method contains its own data setup and cleanup logic.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.ProjectsApiIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses the @Before method to initialize the test environment, although the method is currently empty. The test method itself contains inline logic to set up and tear down the state. Specifically, it uses projectRepository.deleteAll() to clear the database before creating new test data within the test method itself.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test method handles both the setup and teardown of data inline, without relying on external fixtures or application restarts. The use of projectRepository.deleteAll() ensures a clean state before running the test logic, and all data setup is done within the @Test method itself. This matches the description of the 'Manually Create and Clean (Inline Logic)' pattern.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.ExistingRootPageIT": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The test method 'testRootPage' does not contain any setup or teardown logic. It directly sends a GET request to the base URL and asserts the response body. There are no annotations or methods indicating a clean application context or data manipulation.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Minimalistic API Verification",
+        "reasoning": "The test lacks any explicit state management or data setup/cleanup logic, making it not self-contained. It simply verifies an API response without manipulating the application state or ensuring isolation from other tests.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.StatisticsApiIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class manages state through direct database manipulation using the repository object. Before each test, the database is cleared using repository.deleteAll() calls, ensuring no leftover data from previous tests. Data setup is performed within the test methods, using repository.save() to insert necessary data for testing. The absence of shared setup/teardown fixtures indicates reliance on inline logic within each @Test method to manage state.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test class does not use external fixtures or application restarts to manage test state. Instead, data setup and cleanup are performed within the test methods themselves, using direct database operations. This aligns perfectly with Pattern 4, where inline logic is used to ensure tests are self-contained.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.ContributorsApiIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "Each test method begins by calling `repository.deleteAll()`, which clears the database of all contributors. This ensures that each test starts with a clean slate, avoiding interference from previous test runs. There is no application context restart, and no fixture methods are used. Instead, the setup and teardown logic are embedded within each test method.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The tests do not use any external fixtures (like @Before or @After methods) nor do they restart the application context. Instead, each test method manually sets up the required state by clearing the database and inserting new data, ensuring the test environment is isolated and clean for every test run. This fits perfectly with Pattern 4: Manually Create and Clean (Inline Logic).",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.LanguagesControllerIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses a repository to delete all data before each test case is executed. This is evident in each test method where `this.repository.deleteAll()` is called before any data is inserted. This ensures that the database is cleared and does not retain any data from previous tests, making each test self-contained. The tests do not rely on any external fixtures or application restarts, and all setup and teardown logic is performed inline within the test methods.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test methods handle all data setup and teardown within the test logic itself. Each test begins by clearing the entire repository, setting up the necessary data, and performing assertions. This aligns perfectly with Pattern 4, where tests rely on inline logic for both data setup and teardown without using fixtures or restarting the application context.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.fetch.FetchControllerIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses direct database manipulation to ensure a clean state. It invokes repository.deleteAll() methods for all relevant entities (Contributor, Statistics, Project) at the beginning of the testFetch() method, effectively clearing the database tables. There is no application context restart, and no use of transactional rollback. The setup and cleanup are handled inline within the test method itself.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Manually Create and Clean (Inline Logic)",
+        "reasoning": "The test class performs setup and cleanup inline within the @Test methods, specifically using repository.deleteAll() to clear tables before executing the main test logic. This aligns perfectly with the 'Manually Create and Clean (Inline Logic)' pattern, as it neither uses external fixtures nor restarts the application context.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.admin.AdminControllerIT": {
+        "is_self_contained": true,
+        "analysis_of_mechanism": "The test class uses direct repository manipulation to set up and clean up test data. The repositories (ContributorRepository, ProjectRepository, and StatisticsRepository) are used to delete all data before executing each test. This ensures a clean state for each test method, preventing interference between tests.",
+        "fit_assessment": "Perfect Fit",
+        "pattern_name": "Clear and Reload (Fixture-based DB Manipulation)",
+        "reasoning": "The test class uses repository methods like deleteAll() to clear the database before executing the test logic. This pattern matches Pattern 2: Clear and Reload, where the test setup involves wiping and repopulating the database using direct DB manipulation.",
+        "confidence_score": "High"
+    },
+    "org.zalando.catwatch.backend.web.config.ConfigControllerIT": {
+        "is_self_contained": false,
+        "analysis_of_mechanism": "The provided test relies on the AbstractCatwatchIT class, which is not shown. Therefore, it is unclear whether it manages state via setup or teardown logic. There are no visible annotations or state management logic within the test itself.",
+        "fit_assessment": "No Fit (New Pattern)",
+        "pattern_name": "Unknown",
+        "reasoning": "The test does not show any visible mechanism for state management, such as application context restarts, fixture methods, or inline setup/teardown logic. It depends on pre-existing data, as it directly asserts values without setting them up, indicating a dependency on external state or configurations.",
+        "confidence_score": "Low"
+    }
+}

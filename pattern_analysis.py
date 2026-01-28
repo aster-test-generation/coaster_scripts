@@ -68,13 +68,25 @@ Context: We have identified 4 common patterns developers use to ensure integrati
 
 The Known Patterns (Reference):
 
-1. Restart and Initialize: The application creates a fresh context (restarts) for every test class or method. Data is reset because the app boots up from scratch (e.g., in-memory DBs dropping on shutdown).
+1. Restart and Initialize
+Description: The application undergoes a startup/shutdown cycle for every test class or method to ensure a clean state. Data reloading is a side effect of the app startup (e.g., Hibernate hbm2ddl.auto=create).
+Key Indicators: Annotations like @DirtiesContext, @WebIntegrationTest, or logics in the fixtures ensuring a fresh context per test class.
+Differentiation: Even if data is reloaded, if the application restarts, it is Pattern 1, not Pattern 2.
 
-2. Clear and Reload: The application stays running (shared context). Test fixtures (e.g., @BeforeEach, @AfterEach) explicitly wipe the database (e.g., repository.deleteAll()) and reload baseline data.
+2. Clear and Reload (Fixture-based DB Manipulation)
+Description: The application instance is reused (shared context). Persistent data (Database) is wiped and re-populated using test fixtures.
+Key Indicators: Presence of test fixtures (@BeforeEach, @Before, etc.) that call SQL scripts, repositories, or DB cleaners (e.g., flyway.clean(), repository.deleteAll()).
+Differentiation: The application context must remain active (no restart). The manipulation is direct against the DB/Storage in the fixtures, not via external API calls. If there is no fixture, it is Pattern 4.
 
-3. Create via API: The application stays running. The test does not touch the DB directly. Instead, fixtures use HTTP API client calls to create the necessary resources before the test and delete them after.
+3. Create via API Calls (Fixture-based API Manipulation)
+Description: The application instance is reused. Fixtures are used. The test does not touch the DB directly. Instead, in the test fixtures, it uses an HTTP Client to send API requests to set up the required state before the test logic runs.
+Key Indicators: Fixtures (@BeforeEach, @Before, etc.) containing HTTP requests (e.g., client.post("/users", ...)).
+Differentiation: Setup occurs in the fixtures, not the test method. It uses API endpoints, not direct DB access. If there is no fixture, it is Pattern 4.
 
-4. Manually Create and Clean: No global fixtures or automated setups are used. The specific @Test method manually handles all data creation and cleanup logic inline.
+4. Manually Create and Clean (Inline Logic)
+Description: The test relies on neither external fixtures nor app restarts. All data setup and teardown logic is hardcoded inside the specific @Test method.
+Key Indicators: The @Test method contains data setup logic (creating data). No @Before/@After methods are used for data state.
+Differentiation: Applies even if the inline logic uses API calls or DB calls. If it is inside the fixture, it is Pattern 4.
 
 5. Not Self-Contained: The test relies on pre-existing data (that it didn't create), depends on the execution order of other tests, or fails to clean up data that might impact subsequent tests.
 
@@ -94,7 +106,7 @@ Your Task:
 
     Does the application context restart?
 
-    Are there lifecycle methods (@Before, @After)? What do they do?
+    Are there test fixture methods (@Before, @After)? What do they do?
 
     Is there transaction management (e.g., @Transactional that rolls back)?
 
